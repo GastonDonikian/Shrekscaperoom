@@ -4,7 +4,9 @@ using UnityEngine;
 
 public interface IDamageable 
 {
+    
     //properties
+    int MaxLife { get; }
     int CurrentLife { get; }
     
     //actions

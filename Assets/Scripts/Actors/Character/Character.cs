@@ -11,22 +11,14 @@ public enum Weapons
     Shotgun = 1,
     Machingun = 2
 }
-public class Character : MonoBehaviour
+public class Character : Actor
 {
 
     [SerializeField] private List<Gun> _availableWeapons;
     [SerializeField] private Gun _currentWeapon;
 
     [SerializeField] private MovementController _movementController;
-    // private LifeController _lifeController;
-    
-    // public float MovementSpeed => _movementSpeed;
-    // [SerializeField] private float _movementSpeed;
-    //
-    // public float RotationSpeed => _rotateSpeed;
-    // [SerializeField] private float _rotateSpeed;
 
-    
     //Mvmt commands
     private CmdMovement _cmdMoveForward;
     private CmdMovement _cmdMoveBackward;
@@ -43,7 +35,6 @@ public class Character : MonoBehaviour
     {
         EquipWeapon(Weapons.Pistol);
         _movementController = GetComponent<MovementController>();
-        // _lifeController = GetComponent<LifeController>();
 
         _cmdAttack = new CmdAttack(_currentWeapon);
         _cmdReload = new CmdReload(_currentWeapon);

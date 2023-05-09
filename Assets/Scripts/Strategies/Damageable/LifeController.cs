@@ -7,12 +7,7 @@ public class LifeController : MonoBehaviour, IDamageable
 {
     private const string CHARACTER_GAMEOBJECT_NAME = "Character";
 
-    public ActorStats ActorStats => _actorStats;
-    [SerializeField] private ActorStats _actorStats;
-    
-    public int MaxLife => _maxLife;
-    [SerializeField] private int _maxLife;
-
+    public int MaxLife => GetComponent<Actor>().ActorStats.MaxLife;
     public int CurrentLife => _currentLife;
     [SerializeField] private int _currentLife;
 
@@ -28,9 +23,9 @@ public class LifeController : MonoBehaviour, IDamageable
     public void RecoverLife(int recoverAmount)
     {
         _currentLife += recoverAmount;
-        if (_currentLife > _maxLife)
+        if (_currentLife > MaxLife)
         {
-            _currentLife = _maxLife;
+            _currentLife = MaxLife;
         }
     }
     
@@ -44,7 +39,6 @@ public class LifeController : MonoBehaviour, IDamageable
 
     private void Start()
     {
-        _maxLife = _actorStats.MaxLife;
-        _currentLife = _maxLife;
+        _currentLife = MaxLife;
     }
 }
