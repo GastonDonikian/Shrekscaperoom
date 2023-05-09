@@ -17,7 +17,8 @@ public class Bullet : MonoBehaviour, IBullet, IMovable
     [SerializeField] private float _movementSpeed = 15f;
 
     [SerializeField] private List<int> _layerMask;
-    
+
+    public int Damage { get; set; }
     
     public void Travel() => Move(Vector3.forward);
     
@@ -48,7 +49,7 @@ public class Bullet : MonoBehaviour, IBullet, IMovable
         if (_layerMask.Contains(collision.gameObject.layer))
         {
             IDamageable damageable = collision.gameObject.GetComponent<IDamageable>();
-            if (damageable != null) EventQueueManager.instance.AddEvent(new CmdApplyDamage(damageable, 10));
+            if (damageable != null) EventQueueManager.instance.AddEvent(new CmdApplyDamage(damageable, Damage));
             Destroy(gameObject);
         }
         

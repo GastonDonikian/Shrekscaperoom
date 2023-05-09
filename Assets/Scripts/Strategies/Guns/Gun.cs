@@ -5,35 +5,36 @@ using UnityEngine;
 
 public class Gun : MonoBehaviour, IGun
 {
-    public GameObject BulletPrefab => _bulletPrefab;
-    [SerializeField] private GameObject _bulletPrefab;
-    
-    public int Damage => _damage;
-    [SerializeField] private int _damage = 10;
-    
-    public int MagSize => _magSize;
-    [SerializeField] private int _magSize = 20;
-    
+
+    [SerializeField] protected GunStats _gunStats;
+    public GameObject BulletPrefab => _gunStats.BulletPrefab;
+
+    public int Damage => _gunStats.Damage;
+
+    public int MagSize => _gunStats.MaxBulletCount;
+
     public int CurrentBulletCount => currentBulletCount;
     [SerializeField] protected int currentBulletCount = 0;
     
-    public float ShotCooldown => _shootCooldown;
+    public float ShotCooldown => _gunStats.ShotCooldown;
     
-    [SerializeField] private float _shootCooldown = .5f;
+    
     protected float currentShootCooldown = 0f;
 
     public virtual void Attack()
     {
         if (HasBullets && currentShootCooldown <= 0)
         {
-            Instantiate(_bulletPrefab, transform.position + Vector3.forward * 1, transform.rotation);
-            currentShootCooldown = _shootCooldown;
+            GameObject bullet = Instantiate(BulletPrefab, transform.position + Vector3.forward * 1, transform.rotation);
+            bullet.GetComponent<Bullet>().Damage = Damage;
+            
+            currentShootCooldown = ShotCooldown;
             currentBulletCount--;
         }
     }
     
 
-    public virtual void Reload() => currentBulletCount = _magSize;
+    public virtual void Reload() => currentBulletCount = MagSize;
 
     private void Update()
     {
