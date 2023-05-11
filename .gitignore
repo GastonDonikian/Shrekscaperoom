@@ -46,7 +46,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
-
+.idea/*
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -55,7 +55,7 @@ ExportedObj/
 
 # Unity3D generated file on crash reports
 sysinfo.txt
-
+.idea
 # Builds
 *.apk
 *.aab
