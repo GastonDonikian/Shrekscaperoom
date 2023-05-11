@@ -2,8 +2,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Net.Mime;
+using GlobalScripts;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -22,7 +24,13 @@ public class GameManager : MonoBehaviour
     {
         _isGameOver = true;
         _isVictory = isVictory;
+        GlobalVictory.instance.IsVictory = isVictory;
         _gameOverMessage.text = _isVictory ? "Victory!" : "Defeat";
         _gameOverMessage.color = _isVictory ? Color.green : Color.red;
+        
+        Invoke("LoadEndGameScene", 3);
     }
+
+    private void LoadEndGameScene() => SceneManager.LoadScene(UnityScenes.EndGame.ToString());
 }
+  

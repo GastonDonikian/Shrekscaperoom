@@ -27,6 +27,7 @@ namespace StarterAssets
         //Weapon cmds
         private CmdAttack _cmdAttack;
         private CmdReload _cmdReload;
+        private CmdApplyDamage _cmdApplyDamage;
         
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
@@ -180,6 +181,7 @@ namespace StarterAssets
             
             //shoot
             if (Input.GetAxis("Fire1") > 0) EventQueueManager.instance.AddEvent(_cmdAttack);
+            if (Input.GetKey(KeyCode.F1)) EventQueueManager.instance.AddEvent(_cmdApplyDamage);
             if (Input.GetKey(KeyCode.R)) EventQueueManager.instance.AddEvent(_cmdReload);
         }
 
