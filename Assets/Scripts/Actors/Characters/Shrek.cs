@@ -6,7 +6,6 @@ using UnityEngine.AI;
 
 public class Shrek : Actor
 {
-    public Transform ActorStats => target;
     [SerializeField] private Transform target;
     private Rigidbody rb;
 
@@ -23,5 +22,15 @@ public class Shrek : Actor
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
         rb.MoveRotation(lookRotation);
         EventQueueManager.instance.AddEvent(new CmdMovement(_movementController, direction));
+    }
+    
+    public void OnCollisionEnter(Collision collision)
+    {
+        //if collided with character give character damage
+        if (collision.gameObject.layer == 6)
+        {
+            var damageable = collision.gameObject.GetComponent<IDamageable>();
+            if (damageable != null) EventQueueManager.instance.AddEvent(new CmdApplyDamage(damageable, 10000));
+        }
     }
 }
