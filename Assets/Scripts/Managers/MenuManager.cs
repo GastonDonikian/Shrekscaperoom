@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 
 public enum UnityScenes
 {
-    [Description("Main Menu")]
-    Menu,
+    [Description("MainMenu")]
+    MainMenu,
     [Description("Level1")]
     Level1,
     [Description("EndGame")]

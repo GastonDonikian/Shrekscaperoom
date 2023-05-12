@@ -6,22 +6,21 @@ using UnityEngine.AI;
 
 public class Shrek : Actor
 {
-    [SerializeField] private Transform target;
-    private Rigidbody rb;
+    private NavMeshAgent _shrek;
+    public Transform Target;
 
     private MovementController _movementController;
-    private void Awake()
+    private void Start()
     {
-        rb = GetComponent<Rigidbody>();
-        _movementController = GetComponent<MovementController>();
+        _shrek = GetComponent<NavMeshAgent>();
     }
 
     void Update()
     {
-        Vector3 direction = (target.position - transform.position).normalized;
-        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
-        rb.MoveRotation(lookRotation);
-        EventQueueManager.instance.AddEvent(new CmdMovement(_movementController, direction));
+        if (Target != null)
+        {
+            _shrek.SetDestination(Target.position);
+        }
     }
     
     public void OnCollisionEnter(Collision collision)
@@ -31,6 +30,7 @@ public class Shrek : Actor
         {
             var damageable = collision.gameObject.GetComponent<IDamageable>();
             if (damageable != null) EventQueueManager.instance.AddEvent(new CmdApplyDamage(damageable, 10000));
+            
         }
     }
 }

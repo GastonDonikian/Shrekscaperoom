@@ -22,8 +22,8 @@ namespace Managers
         [SerializeField] private Image _imageText;
         private void Start()
         {
-            // bool tester = GlobalVictory.instance.IsVictory;
-            bool tester = true;
+            bool tester = GlobalVictory.instance.IsVictory;
+            //bool tester = true;
             _backgroundMusicController = GetComponent<BackgroundMusicController>();
             _background.sprite = tester ? _victory : _defeat;
             _imageText.sprite = tester ? _victoryText : _defeatText;
@@ -31,6 +31,6 @@ namespace Managers
             _backgroundMusicController.Start();
         }
 
-        public void ActionMainMenu() => SceneManager.LoadScene(UnityScenes.Menu.ToString());
+        public void ActionMainMenu() => SceneManager.LoadScene(UnityScenes.MainMenu.ToString());
     }
 }
