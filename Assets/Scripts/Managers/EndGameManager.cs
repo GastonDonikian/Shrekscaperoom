@@ -31,6 +31,6 @@ namespace Managers
             _backgroundMusicController.Start();
         }
 
-        public void ActionMainMenu() => SceneManager.LoadScene(UnityScenes.MainMenu.ToString());
+        public void ActionMainMenu() => SceneManager.LoadScene(UnityScenes.Level1.ToString());
     }
 }
