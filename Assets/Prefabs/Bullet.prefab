@@ -129,7 +129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _lifeTime: 2
   _movementSpeed: 20
-  _layerMask: 
+  _layerMask: 07000000
 --- !u!136 &8473758713837734518
 CapsuleCollider:
   m_ObjectHideFlags: 0
