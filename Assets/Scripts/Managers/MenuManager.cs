@@ -20,4 +20,4 @@ namespace Managers
 
         public void Quit() => Application.Quit();
     }
-}
+} 

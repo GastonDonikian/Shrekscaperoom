@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
     {
         EventManager.instance.OnGameOver += OnGameOver;
     }
+    
+
 
     private void OnGameOver(bool isVictory)
     {
