@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="">
+    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="Added upgrade scene">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Sounds/SoundDamageEffectController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Sounds/SoundDamageEffectController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GlobalScripts/GlobalUpgrades.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalScripts/GlobalUpgrades.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/MenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Actors/Characters/Shrek.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Actors/Characters/Shrek.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +112,7 @@
       <workItem from="1683913874994" duration="13478000" />
       <workItem from="1683935395063" duration="213000" />
       <workItem from="1684080536539" duration="7081000" />
-      <workItem from="1684270903933" duration="774000" />
+      <workItem from="1684270903933" duration="4532000" />
     </task>
     <task id="LOCAL-00001" summary="Menu and Victory. Missing sound!">
       <created>1683765452632</created>
@@ -145,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684090939723</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added upgrade scene">
+      <created>1684271768922</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684271768922</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +186,7 @@
     <MESSAGE value="Victory and Defeat" />
     <MESSAGE value="UpgradeManager and GlobalUpgrades" />
     <MESSAGE value="Merge." />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge." />
+    <MESSAGE value="Added upgrade scene" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added upgrade scene" />
   </component>
 </project>
