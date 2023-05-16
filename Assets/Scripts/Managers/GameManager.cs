@@ -21,10 +21,19 @@ public class GameManager : MonoBehaviour
 
     private void OnGameOver(bool isVictory)
     {
-        GlobalVictory.instance.IsVictory = isVictory;
-        Invoke("LoadEndGameScene", 0.5f);
+        if (GlobalUpgrades.instance.GetLives() > 0)
+        {
+            Invoke("LoadUpgradeScene", 0.5f);
+        }
+        else
+        {
+            GlobalVictory.instance.IsVictory = isVictory;
+            Invoke("LoadEndGameScene", 0.5f);            
+        }
+
     }
 
+    private void LoadUpgradeScene() => SceneManager.LoadScene(UnityScenes.UpgradeDeath.ToString());
     private void LoadEndGameScene() => SceneManager.LoadScene(UnityScenes.EndGame.ToString());
 }
   
