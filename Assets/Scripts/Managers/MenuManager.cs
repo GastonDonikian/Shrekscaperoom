@@ -8,6 +8,8 @@ public enum UnityScenes
     MainMenu,
     [Description("Level1")]
     Level1,
+    [Description("UpgradeDeath")]
+    UpgradeDeath,
     [Description("EndGame")]
     EndGame,
         
