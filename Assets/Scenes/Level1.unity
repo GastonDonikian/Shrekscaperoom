@@ -505,7 +505,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &188960017
 MonoBehaviour:
@@ -519,9 +519,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e75017f19d1c4162b878e575b9e686be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  power: 0
-  lives: 0
+  speed: 1
+  power: 1
+  lives: 1
 --- !u!1 &196524138
 GameObject:
   m_ObjectHideFlags: 0

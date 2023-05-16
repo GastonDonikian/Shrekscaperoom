@@ -14,7 +14,7 @@ namespace GlobalScripts
 
         private int _startSpeed = 3;
         private int _startPower = 1;
-        private int _startLives = 3;
+        private int _startLives = 1;
 
         private int _powerLimit = 5;
         private int _speedLimit = 5;

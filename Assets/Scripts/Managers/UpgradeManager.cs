@@ -9,6 +9,8 @@ namespace Managers
         private GlobalUpgrades _globalUpgrades;
         private void Start()
         {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.Confined;
             this._globalUpgrades = GlobalUpgrades.instance;
         }
 
