@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2113,6 +2113,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4749116048819261391, guid: be60ebc13352b964aa3564c4bdacc918, type: 3}
+      propertyPath: m_Carve
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749116048819261391, guid: be60ebc13352b964aa3564c4bdacc918, type: 3}
+      propertyPath: m_CarveOnlyStationary
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be60ebc13352b964aa3564c4bdacc918, type: 3}
 --- !u!1001 &6131275880791245867
@@ -2176,6 +2184,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6131275879897960563, guid: 393af198a0f7e6e40995068fb0b5ad95, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6131275879897960567, guid: 393af198a0f7e6e40995068fb0b5ad95, type: 3}
+      propertyPath: m_Carve
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6131275879897960572, guid: 393af198a0f7e6e40995068fb0b5ad95, type: 3}
