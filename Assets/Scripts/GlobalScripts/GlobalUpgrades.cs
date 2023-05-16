@@ -5,8 +5,11 @@ namespace GlobalScripts
     public class GlobalUpgrades : MonoBehaviour
     {
         public static GlobalUpgrades instance;
+        [SerializeField]
         private int speed;
+        [SerializeField]
         private int power;
+        [SerializeField]
         private int lives;
 
         private int _startSpeed = 3;
@@ -33,6 +36,11 @@ namespace GlobalScripts
         public int GetPower()
         {
             return power;
+        }
+
+        public int GetLives()
+        {
+            return lives;
         }
 
         public int DecreaseLife()
