@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28dc510107214fc4fb8d58ed7f141861, type: 3}
-  m_Name: PlayerActorStats 1
+  m_Name: DonkeyStats
   m_EditorClassIdentifier: 
   _statValues:
-    MaxLife: 100
-    MovementSpeed: 2
-    RotationSpeed: 20
+    MaxLife: 2
+    MovementSpeed: 10
+    RotationSpeed: 10

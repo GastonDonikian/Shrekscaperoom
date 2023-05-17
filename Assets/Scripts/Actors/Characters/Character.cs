@@ -28,13 +28,9 @@ namespace StarterAssets
         private CmdAttack _cmdAttack;
         private CmdReload _cmdReload;
         private CmdApplyDamage _cmdApplyDamage;
-        
-        [Header("Player")]
-        [Tooltip("Move speed of the character in m/s")]
-        public float MoveSpeed = 2.0f;
 
-        [Tooltip("Sprint speed of the character in m/s")]
-        public float SprintSpeed = 5.335f;
+        private MovementController _movementController;
+        
 
         [Tooltip("How fast the character turns to face movement direction")]
         [Range(0.0f, 0.3f)]
@@ -152,7 +148,8 @@ namespace StarterAssets
             EquipWeapon(Weapons.Pistol);
             _cmdAttack = new CmdAttack(_currentWeapon);
             _cmdReload = new CmdReload(_currentWeapon);
-            
+            _movementController = GetComponent<MovementController>();
+
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
             
             _hasAnimator = TryGetComponent(out _animator);
@@ -238,7 +235,7 @@ namespace StarterAssets
         private void Move()
         {
             // set target speed based on move speed, sprint speed and if sprint is pressed
-            float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
+            float targetSpeed = _input.sprint ? _movementController.CurrentSpeed * 2.5f : _movementController.CurrentSpeed;
 
             // a simplistic acceleration and deceleration designed to be easy to remove, replace, or iterate upon
 

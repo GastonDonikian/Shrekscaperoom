@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
         EventManager.instance.OnGameOver += OnGameOver;
     }
     
