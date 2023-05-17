@@ -6,23 +6,18 @@ namespace Managers
 {
     public class UpgradeManager: MonoBehaviour
     {
-        private GlobalUpgrades _globalUpgrades;
-        private void Start()
-        {
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.Confined;
-            this._globalUpgrades = GlobalUpgrades.instance;
-        }
 
         public void ActionUpgradeSpeed()
         {
-            _globalUpgrades.IncreaseSpeed();
+            GlobalUpgrades.instance.speed += 1;
+            GlobalUpgrades.instance.lives -= 1;
             SceneManager.LoadScene(UnityScenes.Level1.ToString());
         }
         
         public void ActionUpgradePower()
         {
-            _globalUpgrades.IncreasePower();
+            GlobalUpgrades.instance.power += 1;
+            GlobalUpgrades.instance.lives -= 1;
             SceneManager.LoadScene(UnityScenes.Level1.ToString());
         }
     }

@@ -1,12 +1,14 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using GlobalScripts;
 using UnityEngine;
 
 public class MovementController : MonoBehaviour, IMovable, IRotable
 {
 
     public float MovementSpeed => GetComponent<Actor>().ActorStats.MovementSpeed;
+
     
     public float CurrentSpeed => _currentSpeed;
     [SerializeField] private float _currentSpeed;
@@ -40,6 +42,6 @@ public class MovementController : MonoBehaviour, IMovable, IRotable
 
     private void Start()
     {
-        _currentSpeed = MovementSpeed;
+        _currentSpeed = MovementSpeed + GlobalUpgrades.instance.speed;
     }
 }

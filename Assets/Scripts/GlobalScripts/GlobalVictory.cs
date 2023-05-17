@@ -9,10 +9,10 @@ namespace GlobalScripts
         public bool IsVictory;
         private void Awake()
         {
-            if(instance != null)
+            if(instance == null)
+                instance = this;
+            else
                 Destroy(this.gameObject);
-            instance = this;
-            
             DontDestroyOnLoad(this.gameObject);
         }
     }
