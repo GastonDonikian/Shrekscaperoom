@@ -14,7 +14,7 @@ public class Bullet : MonoBehaviour, IBullet, IMovable
 
 
     public float MovementSpeed => _movementSpeed;
-    [SerializeField] private float _movementSpeed = 15f;
+    [SerializeField] private float _movementSpeed = 20f;
 
     [SerializeField] private List<int> _layerMask;
 
@@ -23,8 +23,17 @@ public class Bullet : MonoBehaviour, IBullet, IMovable
     public void Travel() => Move(Vector3.forward);
     
     public void Move(Vector3 direction) => transform.Translate(direction * (Time.deltaTime * MovementSpeed));
+    public void ReduceSpeed(int speed)
+    {
+        throw new NotImplementedException();
+    }
 
-    
+    public void IncreaseSpeed(int speed)
+    {
+        throw new NotImplementedException();
+    }
+
+
     // Start is called before the first frame update
     void Start()
     {
