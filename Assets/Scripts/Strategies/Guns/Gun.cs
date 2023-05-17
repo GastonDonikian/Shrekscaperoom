@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using GlobalScripts;
 using UnityEngine;
 
 public class Gun : MonoBehaviour, IGun
@@ -26,7 +27,7 @@ public class Gun : MonoBehaviour, IGun
         if (HasBullets && currentShootCooldown <= 0)
         {
             GameObject bullet = Instantiate(BulletPrefab, transform.position + Vector3.forward * 1, transform.rotation);
-            bullet.GetComponent<Bullet>().Damage = Damage;
+            bullet.GetComponent<Bullet>().Damage = Damage + GlobalUpgrades.instance.power;
             
             currentShootCooldown = ShotCooldown;
             currentBulletCount--;

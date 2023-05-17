@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
 
     private void OnGameOver(bool isVictory)
     {
-        if (GlobalUpgrades.instance.GetLives() > 0)
+        if (GlobalUpgrades.instance.lives > 0)
         {
             Invoke("LoadUpgradeScene", 0.5f);
         }
@@ -35,7 +35,18 @@ public class GameManager : MonoBehaviour
 
     }
 
-    private void LoadUpgradeScene() => SceneManager.LoadScene(UnityScenes.UpgradeDeath.ToString());
-    private void LoadEndGameScene() => SceneManager.LoadScene(UnityScenes.EndGame.ToString());
+    private void LoadUpgradeScene()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Confined;
+        SceneManager.LoadScene(UnityScenes.UpgradeDeath.ToString());
+    }
+
+    private void LoadEndGameScene()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Confined;
+        SceneManager.LoadScene(UnityScenes.EndGame.ToString());
+    }
 }
   

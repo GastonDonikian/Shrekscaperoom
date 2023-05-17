@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="Added upgrade scene">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Sounds/SoundDamageEffectController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Sounds/SoundDamageEffectController.cs.meta" afterDir="false" />
+    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="donkey takes damage nd slowes you">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Actors/Characters/Shrek.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Actors/Characters/Shrek.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UpgradeDeath.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/UpgradeDeath.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GlobalScripts/GlobalUpgrades.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalScripts/GlobalUpgrades.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GlobalScripts/GlobalVictory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GlobalScripts/GlobalVictory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/UpgradeManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/UpgradeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/MovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/MovementController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,15 +33,23 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scripts/Managers/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scripts/Managers/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scripts/Managers/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scripts/Managers/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scenes/Level1.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scenes/Level1.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scenes/UpgradeDeath.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scripts/Actors/Bullet/Bullet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.2/Runtime/Intrinsics/x86/Sse2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/DefaultControls.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/EventSystem/InputModuleTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/EventSystem/SelectableTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/InputField/TouchInputFieldTests.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2PcHUuVc0Vf0SmEMyKsTx2elIx4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -112,7 +124,7 @@
       <workItem from="1683913874994" duration="13478000" />
       <workItem from="1683935395063" duration="213000" />
       <workItem from="1684080536539" duration="7081000" />
-      <workItem from="1684270903933" duration="4532000" />
+      <workItem from="1684270903933" duration="17647000" />
     </task>
     <task id="LOCAL-00001" summary="Menu and Victory. Missing sound!">
       <created>1683765452632</created>
@@ -149,7 +161,42 @@
       <option name="project" value="LOCAL" />
       <updated>1684271768922</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Sound effects">
+      <created>1684276712497</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684276712497</updated>
+    </task>
+    <task id="LOCAL-00007" summary="sounds">
+      <created>1684277051050</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684277051050</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Hot Fix.">
+      <created>1684277665354</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684277665354</updated>
+    </task>
+    <task id="LOCAL-00009" summary="bug fix">
+      <created>1684279860308</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684279860308</updated>
+    </task>
+    <task id="LOCAL-00010" summary="donkey takes damage nd slowes you">
+      <created>1684287211644</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684287211644</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +234,11 @@
     <MESSAGE value="UpgradeManager and GlobalUpgrades" />
     <MESSAGE value="Merge." />
     <MESSAGE value="Added upgrade scene" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added upgrade scene" />
+    <MESSAGE value="Sound effects" />
+    <MESSAGE value="sounds" />
+    <MESSAGE value="Hot Fix." />
+    <MESSAGE value="bug fix" />
+    <MESSAGE value="donkey takes damage nd slowes you" />
+    <option name="LAST_COMMIT_MESSAGE" value="donkey takes damage nd slowes you" />
   </component>
 </project>
