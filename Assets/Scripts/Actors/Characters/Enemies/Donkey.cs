@@ -32,10 +32,12 @@ public class Donkey : Actor
         //if collided with character give character damage
         if (collision.gameObject.layer == 6)
         {
+            gameObject.GetComponent<Collider>().enabled = false;
             _soundDamageEffectController.OnDamage();
             var movable = collision.gameObject.GetComponent<IMovable>();
             if (movable != null) EventQueueManager.instance.AddEvent(new CmdReduceSpeed(movable, 1));
-            Destroy(this.gameObject);
+            Destroy(this.gameObject,0.5f);
         }
     }
 }
+

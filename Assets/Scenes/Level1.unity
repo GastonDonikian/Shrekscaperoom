@@ -679,6 +679,53 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23710e68bfa4e0145ba128637ec7d391, type: 3}
+--- !u!1 &574386783 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1124231165869390, guid: d88bef7e796da7d4e95653d86bb150c7, type: 3}
+  m_PrefabInstance: {fileID: 1238172464}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &574386788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574386783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4f18a65d1dca4c43a7b9de81d4d5c29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _currentLife: 0
+--- !u!114 &574386789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574386783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b099a6f2a3f3124683f9144652a5f54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _actorStats: {fileID: 11400000, guid: 888262198986cae4496b9f4f21a74d7a, type: 2}
+--- !u!208 &574386791
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574386783}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.6090002, y: 1.2210001, z: 1.526}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.31100002, y: 1.1370001, z: 0.078}
+  m_TimeToStationary: 0.5
 --- !u!1001 &583162160
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1924,6 +1971,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 64759984930146742, guid: d88bef7e796da7d4e95653d86bb150c7, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 64759984930146742, guid: d88bef7e796da7d4e95653d86bb150c7, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d88bef7e796da7d4e95653d86bb150c7, type: 3}
 --- !u!4 &1282035854 stripped
@@ -2023,12 +2078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _damages:
-  - {fileID: 8300000, guid: 10d1eb3b9b22d6d4d88b0b8cfea5a591, type: 3}
-  - {fileID: 8300000, guid: 7f1a0e2567c033242bdd2063c05b7acc, type: 3}
-  - {fileID: 8300000, guid: eee4df3f7205e984ca81cb79847c674d, type: 3}
-  - {fileID: 8300000, guid: 1db2203902698674e8986ee40c214204, type: 3}
-  - {fileID: 8300000, guid: 42fde842cead66d468c1904f20fff991, type: 3}
-  - {fileID: 8300000, guid: bacfdd4d364c8db469542c91643d57df, type: 3}
+  - {fileID: 8300000, guid: 0210f03c500071c40b84b02cc1520f0d, type: 3}
 --- !u!82 &1282035861
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2040,7 +2090,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2190,7 +2240,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2286,7 +2336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioClip: {fileID: 8300000, guid: 050ec72ecec999346a48a7c174e6a53f, type: 3}
   _audioSource: {fileID: 0}
-  _volume: 1
+  _volume: 0.2
   _mute: 0
 --- !u!4 &1311358998 stripped
 Transform:

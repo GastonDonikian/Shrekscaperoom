@@ -33,8 +33,9 @@ public class LifeController : MonoBehaviour, IDamageable
 
     public void Die()
     {
-        if (name == CHARACTER_GAMEOBJECT_NAME) EventManager.instance.ActionGameOver(false);
-            Destroy(this.gameObject);
+        if (name == CHARACTER_GAMEOBJECT_NAME) 
+            EventManager.instance.ActionGameOver(false); 
+        Destroy(this.gameObject);
     }
 
     private void Start()
