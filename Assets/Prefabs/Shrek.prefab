@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 6902852730521844712}
   - component: {fileID: 6902852730521844715}
   - component: {fileID: 6902852730521844714}
-  - component: {fileID: 6902852730521844693}
   - component: {fileID: 6902852730521844716}
   m_Layer: 0
   m_Name: Shrek
@@ -127,28 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d216f6981e424a099ab641e4b598455a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!195 &6902852730521844693
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6902852730521844692}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 1
-  m_BaseOffset: 0.5
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
+  _currentSpeed: 0
 --- !u!54 &6902852730521844716
 Rigidbody:
   m_ObjectHideFlags: 0
