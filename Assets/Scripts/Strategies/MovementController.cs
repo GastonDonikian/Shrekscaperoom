@@ -22,9 +22,13 @@ public class MovementController : MonoBehaviour, IMovable, IRotable
 
     public void ReduceSpeed(int speed)
     {
-        if (_currentSpeed >= 1)
+        if (_currentSpeed > 1)
         {
             _currentSpeed -= speed;
+        }
+        else
+        {
+            _currentSpeed /= 2;
         }
     }
 
