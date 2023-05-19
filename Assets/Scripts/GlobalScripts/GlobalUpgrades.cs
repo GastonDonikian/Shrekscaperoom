@@ -8,6 +8,10 @@ namespace GlobalScripts
         public int speed = 0;
         public int power = 0;
         public int lives = 3;
+
+        public static int _startLives = 3;
+        public static int _initialSpeed = 0;
+        public static int _startPower = 0;
         private void Awake()
         {
             if(instance == null)

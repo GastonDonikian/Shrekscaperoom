@@ -15,3 +15,4 @@ public class SpawnEnemyTrigger : MonoBehaviour
                 transform.rotation);
     }
 }
+ 
