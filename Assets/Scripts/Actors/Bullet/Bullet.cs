@@ -59,8 +59,7 @@ public class Bullet : MonoBehaviour, IBullet, IMovable
         {
             IDamageable damageable = collision.gameObject.GetComponent<IDamageable>();
             if (damageable != null) EventQueueManager.instance.AddEvent(new CmdApplyDamage(damageable, Damage));
-            Destroy(gameObject);
         }
-        
+        Destroy(gameObject);
     }
 }
