@@ -35,5 +35,7 @@ namespace Managers
         }
 
         public void ActionMainMenu() => SceneManager.LoadScene(UnityScenes.Level1.ToString());
+        
+        public void ActionQuit() =>  Application.Quit();
     }
 }
