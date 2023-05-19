@@ -23,24 +23,12 @@ public class GameManager : MonoBehaviour
 
     private void OnGameOver(bool isVictory)
     {
-        if (!isVictory)
+        if (!isVictory && GlobalUpgrades.instance.lives > 0)
         {
-            if (GlobalUpgrades.instance.lives > 0)
-            {
                 Invoke("LoadUpgradeScene", 0.5f);
-            }
-            else
-            {
-                GlobalVictory.instance.IsVictory = isVictory;
-                Invoke("LoadEndGameScene", 0.5f);            
-            }
-        }
-        else
-        {
-            
-            GlobalVictory.instance.IsVictory = isVictory;
-            Invoke("LoadEndGameScene", 0.5f);
-        }
+                return; }
+        GlobalVictory.instance.IsVictory = isVictory;
+        Invoke("LoadEndGameScene", 0.5f);
     }
 
     private void LoadUpgradeScene()
