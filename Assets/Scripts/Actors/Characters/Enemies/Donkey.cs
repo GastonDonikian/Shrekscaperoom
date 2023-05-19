@@ -8,21 +8,22 @@ using UnityEngine.AI;
 public class Donkey : Actor
 {
     private NavMeshAgent _donkey;
-    public Transform Target;
+    private Transform _target;
 
     private MovementController _movementController;
     private SoundDamageEffectController _soundDamageEffectController;
     private void Start()
     {
+        _target = GameObject.Find("Character").transform;
         _soundDamageEffectController = GetComponent<SoundDamageEffectController>();
         _donkey = GetComponent<NavMeshAgent>();
     }
-
+    
     void Update()
     {
-        if (Target != null)
+        if (_target != null)
         {
-            _donkey.SetDestination(Target.position);
+            _donkey.SetDestination(_target.position);
         }
     }
     
