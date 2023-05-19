@@ -29,6 +29,9 @@ namespace Managers
             _imageText.sprite = tester ? _victoryText : _defeatText;
             _backgroundMusicController.SetAudioClip(tester ? _victorySound : _defeatSound);
             _backgroundMusicController.Start();
+            GlobalUpgrades.instance.lives = GlobalUpgrades._startLives;
+            GlobalUpgrades.instance.power = GlobalUpgrades._startPower;
+            GlobalUpgrades.instance.speed = GlobalUpgrades._initialSpeed;
         }
 
         public void ActionMainMenu() => SceneManager.LoadScene(UnityScenes.Level1.ToString());
