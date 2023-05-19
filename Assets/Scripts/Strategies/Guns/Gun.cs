@@ -26,7 +26,7 @@ public class Gun : MonoBehaviour, IGun
     {
         if (HasBullets && currentShootCooldown <= 0)
         {
-            GameObject bullet = Instantiate(BulletPrefab, transform.position + Vector3.forward * 1, transform.rotation);
+            GameObject bullet = Instantiate(BulletPrefab, transform.position + Vector3.forward * 0.2f, transform.rotation);
             bullet.GetComponent<Bullet>().Damage = Damage + GlobalUpgrades.instance.power;
             
             currentShootCooldown = ShotCooldown;
