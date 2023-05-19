@@ -5,12 +5,12 @@ namespace GlobalScripts
     public class GlobalUpgrades : MonoBehaviour
     {
         public static GlobalUpgrades instance;
-        public int speed = GlobalUpgrades._initialSpeed;
+        public float speed = GlobalUpgrades._initialSpeed;
         public int power = GlobalUpgrades._startPower;
         public int lives = GlobalUpgrades._startLives;
 
         public static int _startLives = 4;
-        public static int _initialSpeed = 0;
+        public static float _initialSpeed = 0f;
         public static int _startPower = 0;
         private void Awake()
         {

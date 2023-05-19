@@ -9,7 +9,7 @@ namespace Managers
 
         public void ActionUpgradeSpeed()
         {
-            GlobalUpgrades.instance.speed += 1;
+            GlobalUpgrades.instance.speed += 0.5f;
             GlobalUpgrades.instance.lives -= 1;
             SceneManager.LoadScene(UnityScenes.Level1.ToString());
         }
