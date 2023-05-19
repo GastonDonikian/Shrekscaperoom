@@ -12,6 +12,7 @@ public class Donkey : Actor
 
     private MovementController _movementController;
     private SoundDamageEffectController _soundDamageEffectController;
+    private bool collided = false;
     private void Start()
     {
         _target = GameObject.Find("Character").transform;
@@ -31,12 +32,14 @@ public class Donkey : Actor
     {
         
         //if collided with character give character damage
-        if (collision.gameObject.layer == 6)
+        if (collision.gameObject.layer == 6 && !collided)
         {
             gameObject.GetComponent<Collider>().enabled = false;
+            gameObject.GetComponent<MeshRenderer>().enabled = false;
             _soundDamageEffectController.OnDamage();
             var movable = collision.gameObject.GetComponent<IMovable>();
             if (movable != null) EventQueueManager.instance.AddEvent(new CmdReduceSpeed(movable, 1));
+            collided = true;
             Destroy(this.gameObject,0.5f);
         }
     }
