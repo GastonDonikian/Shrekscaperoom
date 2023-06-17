@@ -12,17 +12,22 @@ public class Shrek : Actor
 
     private MovementController _movementController;
     private SoundDamageEffectController _soundDamageEffectController;
+    private bool doorDestroyed = false;
+    private Animator _animator;
     private void Start()
     {
         _soundDamageEffectController = GetComponent<SoundDamageEffectController>();
         _shrek = GetComponent<NavMeshAgent>();
+        _animator = GetComponent<Animator>();
+        EventManager.instance.OnChase += OnChase;
     }
 
     void Update()
     {
-        if (Target != null)
+        if (Target != null && doorDestroyed)
         {
             _shrek.SetDestination(Target.position);
+            _animator.SetBool("isMoving", _shrek.velocity.magnitude > 0.1f);
         }
     }
     
@@ -36,5 +41,12 @@ public class Shrek : Actor
             if (damageable != null) EventQueueManager.instance.AddEvent(new CmdApplyDamage(damageable, 10000));
             
         }
+    }
+    
+    private void OnChase(bool isBroken)
+    {
+        doorDestroyed = isBroken;
+        _animator.SetTrigger("release");
+        _animator.SetBool("isMoving", true);
     }
 }

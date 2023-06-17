@@ -8,7 +8,8 @@ public class LifeController : MonoBehaviour, IDamageable
 {
     private const string CHARACTER_GAMEOBJECT_NAME = "Character";
     [CanBeNull] private const string MACHINE_NAME = "Machine_3";
-
+    private const string DOOR_GAMEOBJECT_NAME = "Door";
+    private const string CDOOR_GAMEOBJECT_NAME = "Connected Door";
     public int MaxLife => GetComponent<Actor>().ActorStats.MaxLife;
     public int CurrentLife => _currentLife;
     [SerializeField] private int _currentLife;
@@ -39,6 +40,8 @@ public class LifeController : MonoBehaviour, IDamageable
             EventManager.instance.ActionGameOver(false);
         else if (name == MACHINE_NAME) 
             EventManager.instance.ActionGameOver(true);
+        else if (name == DOOR_GAMEOBJECT_NAME || name == CDOOR_GAMEOBJECT_NAME)
+            EventManager.instance.StartChase(true);
         Destroy(this.gameObject);
     }
 
