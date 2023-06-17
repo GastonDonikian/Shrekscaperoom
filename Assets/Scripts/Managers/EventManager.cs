@@ -14,5 +14,7 @@ public class EventManager : MonoBehaviour
     }
     
     public event Action<bool> OnGameOver;
+    public event Action<bool> OnChase;
     public void ActionGameOver(bool isGameOver) => OnGameOver(isGameOver);
+    public void StartChase(bool isDoorBroken) => OnChase(isDoorBroken);
 }
