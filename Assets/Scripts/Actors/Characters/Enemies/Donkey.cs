@@ -22,7 +22,7 @@ public class Donkey : Actor
     
     void Update()
     {
-        if (_target != null)
+        if (_target != null && !collided)
         {
             _donkey.SetDestination(_target.position);
         }
@@ -35,7 +35,7 @@ public class Donkey : Actor
         if (collision.gameObject.layer == 6 && !collided)
         {
             gameObject.GetComponent<Collider>().enabled = false;
-            gameObject.GetComponent<MeshRenderer>().enabled = false;
+            _donkey.enabled = false;
             _soundDamageEffectController.OnDamage();
             var movable = collision.gameObject.GetComponent<IMovable>();
             if (movable != null) EventQueueManager.instance.AddEvent(new CmdReduceSpeed(movable, 1));
