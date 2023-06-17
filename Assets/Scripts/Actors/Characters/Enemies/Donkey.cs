@@ -13,11 +13,14 @@ public class Donkey : Actor
     private MovementController _movementController;
     private SoundDamageEffectController _soundDamageEffectController;
     private bool collided = false;
+    private Animator _animator;
     private void Start()
     {
         _target = GameObject.Find("Character").transform;
         _soundDamageEffectController = GetComponent<SoundDamageEffectController>();
         _donkey = GetComponent<NavMeshAgent>();
+        _animator = GetComponent<Animator>();
+        
     }
     
     void Update()
@@ -26,6 +29,7 @@ public class Donkey : Actor
         {
             _donkey.SetDestination(_target.position);
         }
+        _animator.SetBool("isMoving", _donkey.velocity.magnitude > 0.1f);
     }
     
     public void OnCollisionEnter(Collision collision)
