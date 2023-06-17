@@ -12,9 +12,15 @@ public class EventManager : MonoBehaviour
         if (instance != null) Destroy(this);
         instance = this;
     }
-    
+    public event Action<int> ActionCharacterSpeedChange;
     public event Action<bool> OnGameOver;
     public event Action<bool> OnChase;
+
+    public event Action<int, int> ActionOnWeaponFired;
     public void ActionGameOver(bool isGameOver) => OnGameOver(isGameOver);
     public void StartChase(bool isDoorBroken) => OnChase(isDoorBroken);
+
+    public void OnCharacterSpeedChange(int currentSpeed) => ActionCharacterSpeedChange(currentSpeed);
+
+    public void OnWeaponFired(int currentAmmo, int maxAmmo) => ActionOnWeaponFired(currentAmmo, maxAmmo);
 }

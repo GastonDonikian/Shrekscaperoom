@@ -8,7 +8,12 @@ public class CmdAttack : ICommand
   public CmdAttack(IGun gun)
   {
     _gun = gun;
+
   }
-  
-  public void Execute() => _gun.Attack();
+
+  public void Execute()
+  {
+    _gun.Attack();
+    EventManager.instance.OnWeaponFired(_gun.CurrentBulletCount,_gun.MagSize);
+  }
 }
