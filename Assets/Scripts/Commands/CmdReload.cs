@@ -10,5 +10,9 @@ public class CmdReload : ICommand
         _gun = gun;
     }
   
-    public void Execute() => _gun.Reload();
+    public void Execute()
+    {
+        _gun.Reload();
+        EventManager.instance.OnWeaponFired(_gun.CurrentBulletCount,_gun.MagSize);
+    }
 }
