@@ -47,6 +47,7 @@ public class Pistol : Gun
         RaycastHit hit;
         if (Physics.Raycast(_camera.transform.position, _camera.transform.forward, out hit, Range))
         {
+            Debug.Log(hit.transform.gameObject.name);
             if (_layerMask.Contains(hit.transform.gameObject.layer))
             {
                 IDamageable damageable = hit.transform.GetComponent<IDamageable>();
