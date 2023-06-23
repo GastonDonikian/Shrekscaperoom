@@ -10,6 +10,8 @@ public class GunStats : ScriptableObject
     public int Damage => _stats.Damage;
     public int MaxBulletCount => _stats.MaxBulletCount;
     public float ShotCooldown => _stats.ShotCooldown;
+    public float ReloadCooldown => _stats.ReloadCooldown;
+    public float Range => _stats.Range;
 }
 
 [System.Serializable]
@@ -19,4 +21,6 @@ public struct GunStatValues
     public int Damage;
     public int MaxBulletCount;
     public float ShotCooldown;
+    public float ReloadCooldown;
+    public float Range;
 }

@@ -17,3 +17,5 @@ MonoBehaviour:
     Damage: 1
     MaxBulletCount: 10
     ShotCooldown: 1
+    ReloadCooldown: 4
+    Range: 100

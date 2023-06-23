@@ -3,18 +3,24 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using GlobalScripts;
 
 public class Pistol : Gun
 {
+    private Animator _animator;
+    [SerializeField] private ParticleSystem _muzzleFlash;
+    [SerializeField] private GameObject impactEffect;
+    [SerializeField] private List<int> _layerMask;
+    [SerializeField] private Camera _camera;
     public override bool Attack()
     {
-        
         if (base.Attack() == true)
         {
+            Shoot();
             _animator.SetTrigger("Shoot");
+            _muzzleFlash.Play();
             return true;
         }
-
         return false;
     }
 
@@ -30,10 +36,27 @@ public class Pistol : Gun
         return false;
     } 
     
-    private Animator _animator;
 
     private void Start()
     {
         _animator = GetComponentInChildren<Animator>();
+    }
+
+    private void Shoot()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(_camera.transform.position, _camera.transform.forward, out hit, Range))
+        {
+            if (_layerMask.Contains(hit.transform.gameObject.layer))
+            {
+                IDamageable damageable = hit.transform.GetComponent<IDamageable>();
+                if (damageable != null)
+                {
+                    EventQueueManager.instance.AddEvent(new CmdApplyDamage(damageable, Damage + GlobalUpgrades.instance.power));
+                }
+            }
+            GameObject explosion = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
+            Destroy(explosion, 1f);
+        }
     }
 }
