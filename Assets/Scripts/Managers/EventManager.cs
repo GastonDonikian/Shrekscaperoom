@@ -12,6 +12,8 @@ public class EventManager : MonoBehaviour
         if (instance != null) Destroy(this);
         instance = this;
     }
+
+    public event Action<int> ActionCharacterLifeChange;
     public event Action<int> ActionCharacterSpeedChange;
     public event Action<bool> OnGameOver;
     public event Action<bool> OnChase;
@@ -23,4 +25,6 @@ public class EventManager : MonoBehaviour
     public void OnCharacterSpeedChange(int currentSpeed) => ActionCharacterSpeedChange(currentSpeed);
 
     public void OnWeaponFired(int currentAmmo, int maxAmmo) => ActionOnWeaponFired(currentAmmo, maxAmmo);
+
+    public void OnCharacterLifeChange(int currentLife) => ActionCharacterLifeChange(currentLife);
 }
