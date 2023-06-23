@@ -57,7 +57,7 @@ public class Pistol : Gun
                 }
             }
             GameObject explosion = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
-            Destroy(explosion, 1f);
+            Destroy(explosion, 0.2f);
         }
     }
 }
