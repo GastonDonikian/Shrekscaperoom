@@ -834,8 +834,8 @@ GameObject:
   - component: {fileID: -6655797789548608400}
   - component: {fileID: 1767405996429494986}
   - component: {fileID: -7872705291908879268}
-  - component: {fileID: 4048201288055919858}
   - component: {fileID: 4598640653871726009}
+  - component: {fileID: 4914884315949500456}
   m_Layer: 8
   m_Name: Donkey Avatar anims
   m_TagString: Untagged
@@ -1046,19 +1046,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _currentLife: 0
---- !u!65 &4048201288055919858
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2261463647069355227}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.102041, y: 1.9716094, z: 1.8633085}
-  m_Center: {x: 0, y: 0.9520267, z: 0.07}
 --- !u!95 &4598640653871726009
 Animator:
   serializedVersion: 5
@@ -1080,6 +1067,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!64 &4914884315949500456
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2261463647069355227}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4388817140844257007, guid: bbef07b52db7a1744bf37e8123a44781, type: 3}
 --- !u!1 &2278080010775122179
 GameObject:
   m_ObjectHideFlags: 0
