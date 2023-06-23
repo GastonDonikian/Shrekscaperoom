@@ -21,8 +21,9 @@ public class Gun : MonoBehaviour, IGun
     
     
     protected float currentShootCooldown = 0f;
+    protected float currentReloadCooldown = 0f;
 
-    public virtual void Attack()
+    public virtual bool Attack()
     {
         if (HasBullets && currentShootCooldown <= 0)
         {
@@ -31,17 +32,35 @@ public class Gun : MonoBehaviour, IGun
             
             currentShootCooldown = ShotCooldown;
             currentBulletCount--;
+            return true;
         }
-    }
-    
 
-    public virtual void Reload() => currentBulletCount = MagSize;
+        return false;
+    }
+
+
+    public virtual bool Reload()
+    {
+        if (currentReloadCooldown <= 0)  
+        {
+            currentBulletCount = MagSize;
+            currentReloadCooldown = 1;
+            return true;
+        }
+
+        return false;
+    } 
 
     private void Update()
     {
         if (currentShootCooldown >= 0)
         {
             currentShootCooldown -= Time.deltaTime;
+        }
+
+        if (currentReloadCooldown >= 0) 
+        {
+            currentReloadCooldown -= Time.deltaTime;
         }
     }
     
