@@ -19,6 +19,7 @@ public class Gun : MonoBehaviour, IGun
     
     public float ShotCooldown => _gunStats.ShotCooldown;
     public float ReloadCooldown => _gunStats.ReloadCooldown;
+    public float Range => _gunStats.Range;
 
 
 
@@ -29,9 +30,6 @@ public class Gun : MonoBehaviour, IGun
     {
         if (HasBullets && currentShootCooldown <= 0 && currentReloadCooldown <= 0)
         {
-            GameObject bullet = Instantiate(BulletPrefab, transform.position + Vector3.forward * 0.3f, transform.rotation);
-            bullet.GetComponent<Bullet>().Damage = Damage + GlobalUpgrades.instance.power;
-            
             currentShootCooldown = ShotCooldown;
             currentBulletCount--;
             return true;

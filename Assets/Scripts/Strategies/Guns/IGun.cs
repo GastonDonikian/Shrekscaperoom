@@ -11,6 +11,7 @@ public interface IGun
     int CurrentBulletCount { get; }
     float ShotCooldown { get; }
     float ReloadCooldown { get; }
+    float Range { get; }
     
 
     //actions
