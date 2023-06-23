@@ -39,8 +39,6 @@ namespace Managers
                 {
                     listIcon.enabled = true;
                     listIcon.GetComponentInChildren<Image>().enabled = true;
-
-                    
                 }
                 else
                 {
@@ -51,7 +49,7 @@ namespace Managers
         }
         private void OnCharacterSpeedChange(int currentSpeed)
         {
-            _speedValue.text = currentSpeed.ToString();
+            _speedValue.text = (int.Parse(_speedValue.text) + currentSpeed).ToString();
 
         }
         
