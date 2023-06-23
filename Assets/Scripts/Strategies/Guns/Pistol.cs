@@ -16,9 +16,9 @@ public class Pistol : Gun
     {
         if (base.Attack() == true)
         {
-            Shoot();
             _animator.SetTrigger("Shoot");
             _muzzleFlash.Play();
+            Shoot();
             return true;
         }
         return false;
