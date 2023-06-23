@@ -13,6 +13,6 @@ public interface IGun
     
 
     //actions
-    void Attack();
-    void Reload();
+    bool Attack();
+    bool Reload();
 }
