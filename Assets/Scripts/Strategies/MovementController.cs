@@ -26,10 +26,6 @@ public class MovementController : MonoBehaviour, IMovable, IRotable
         {
             _currentSpeed -= speed;
         }
-        else
-        {
-            _currentSpeed /= 2;
-        }
     }
 
     public void IncreaseSpeed(int speed)

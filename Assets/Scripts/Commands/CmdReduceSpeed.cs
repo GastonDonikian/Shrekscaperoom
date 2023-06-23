@@ -1,4 +1,6 @@
-﻿namespace Commands
+﻿using UnityEngine;
+
+namespace Commands
 {
     public class CmdReduceSpeed: ICommand
     {
@@ -11,6 +13,10 @@
             _speedChange = speedChange;
         }
 
-        public void Execute() => _movable.ReduceSpeed(_speedChange);
+        public void Execute()
+        {
+            EventManager.instance.OnCharacterSpeedChange(-1*_speedChange);
+            _movable.ReduceSpeed(_speedChange);
+        }
     }
 }
