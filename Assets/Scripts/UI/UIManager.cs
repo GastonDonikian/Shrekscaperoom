@@ -10,13 +10,11 @@ namespace Managers
     public class UIManager : MonoBehaviour
     {
         [SerializeField] private Image _avatar;
-        [SerializeField] private Image _lifeBar;
-        [SerializeField] private List<Image> _speedIconList;
-        [SerializeField] private List<Image> _speedDestroyAnimationList;
-        [SerializeField] private List<Image> _powerIcon;
         [SerializeField] private List<Image> _lifeIcon;
         [SerializeField] private Image _weapon;
         [SerializeField] private Text _ammoValue;
+        [SerializeField] private Text _powerValue;
+        [SerializeField] private Text _speedValue;
 
         private void Start()
         {
@@ -53,52 +51,15 @@ namespace Managers
         }
         private void OnCharacterSpeedChange(int currentSpeed)
         {
-            var i = 0;
-            foreach (var listIcon in _speedIconList)
-            {   
-                if (i < currentSpeed)
-                    listIcon.enabled = true;
-                else
-                {
-                    listIcon.enabled = false;
-                }
-                i++;
-            }
+            _speedValue.text = currentSpeed.ToString();
 
-            // foreach (var speedIcon in _speedIconList)
-            // {
-            //     _speedDestroyAnimationList[i].enabled = (i == currentSpeed);
-            //     if (i < currentSpeed)
-            //     {
-            //         speedIcon.enabled = true;
-            //         _speedDestroyAnimationList[i].enabled = false;
-            //     }
-            //     else
-            //     {
-            //         speedIcon.enabled = false;
-            //
-            //     }
-            //
-            //
-            //     i++;
-            // }
         }
         
         private void OnCharacterPowerChange(int currentPower)
         {
-            
-            var i = 0;
-            foreach (var powerIcon in _powerIcon)
-            {   
-                if (i < currentPower)
-                    powerIcon.enabled = true;
-                else
-                {
-                    powerIcon.enabled = false;
-                }
-                i++;
-            }
-            
+
+            _powerValue.text = currentPower.ToString();
+
         }
     }
 }
