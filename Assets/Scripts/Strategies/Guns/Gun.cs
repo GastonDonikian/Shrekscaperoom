@@ -18,14 +18,16 @@ public class Gun : MonoBehaviour, IGun
     [SerializeField] protected int currentBulletCount = 0;
     
     public float ShotCooldown => _gunStats.ShotCooldown;
-    
-    
+    public float ReloadCooldown => _gunStats.ReloadCooldown;
+
+
+
     protected float currentShootCooldown = 0f;
     protected float currentReloadCooldown = 0f;
 
     public virtual bool Attack()
     {
-        if (HasBullets && currentShootCooldown <= 0)
+        if (HasBullets && currentShootCooldown <= 0 && currentReloadCooldown <= 0)
         {
             GameObject bullet = Instantiate(BulletPrefab, transform.position + Vector3.forward * 0.3f, transform.rotation);
             bullet.GetComponent<Bullet>().Damage = Damage + GlobalUpgrades.instance.power;
@@ -41,15 +43,15 @@ public class Gun : MonoBehaviour, IGun
 
     public virtual bool Reload()
     {
-        if (currentReloadCooldown <= 0)  
+        if (currentReloadCooldown <= 0 && currentShootCooldown <= 0)
         {
             currentBulletCount = MagSize;
-            currentReloadCooldown = 1;
+            currentReloadCooldown = ReloadCooldown;
             return true;
         }
 
         return false;
-    } 
+    }
 
     private void Update()
     {

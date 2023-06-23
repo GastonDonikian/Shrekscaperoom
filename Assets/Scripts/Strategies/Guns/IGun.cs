@@ -10,6 +10,7 @@ public interface IGun
     int MagSize { get; }
     int CurrentBulletCount { get; }
     float ShotCooldown { get; }
+    float ReloadCooldown { get; }
     
 
     //actions
