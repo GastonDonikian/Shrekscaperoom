@@ -16,6 +16,6 @@ MonoBehaviour:
     BulletPrefab: {fileID: 1950671669004815870, guid: 54b222d7ccbf0cf48a38781e350fab39, type: 3}
     Damage: 1
     MaxBulletCount: 10
-    ShotCooldown: 0.5
+    ShotCooldown: 0.9
     ReloadCooldown: 4
     Range: 100
