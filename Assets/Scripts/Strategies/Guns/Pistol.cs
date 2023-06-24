@@ -10,6 +10,7 @@ public class Pistol : Gun
     private Animator _animator;
     [SerializeField] private ParticleSystem _muzzleFlash;
     [SerializeField] private GameObject impactEffect;
+    [SerializeField] private GameObject hitEffect;
     [SerializeField] private List<int> _layerMask;
     [SerializeField] private Camera _camera;
     public override bool Attack()
@@ -55,9 +56,14 @@ public class Pistol : Gun
                 {
                     EventQueueManager.instance.AddEvent(new CmdApplyDamage(damageable, Damage + GlobalUpgrades.instance.power));
                 }
+                GameObject explosion = Instantiate(hitEffect, hit.point, Quaternion.LookRotation(transform.forward));
+                Destroy(explosion, 0.2f);
             }
-            GameObject explosion = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
-            Destroy(explosion, 0.2f);
+            else
+            {
+                GameObject explosion = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
+                Destroy(explosion, 0.2f);
+            }
         }
     }
 }

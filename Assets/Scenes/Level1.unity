@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3906,7 +3906,8 @@ MonoBehaviour:
   _gunStats: {fileID: 11400000, guid: fc3b63019d531f344803ee60f9e004d0, type: 2}
   currentBulletCount: 10
   _muzzleFlash: {fileID: 1004353896}
-  impactEffect: {fileID: 7043768356776011928, guid: 592e582006a0bbb4388d8afaf75daddd, type: 3}
+  impactEffect: {fileID: 7226583673155636401, guid: a2ab56839e1c9504ea9d141e95d0b16b, type: 3}
+  hitEffect: {fileID: 7043768356776011928, guid: 592e582006a0bbb4388d8afaf75daddd, type: 3}
   _layerMask: 0800000007000000
   _camera: {fileID: 1304289492}
 --- !u!114 &1983181969
