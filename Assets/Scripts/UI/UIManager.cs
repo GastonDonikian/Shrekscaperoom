@@ -11,6 +11,7 @@ namespace Managers
     {
         [SerializeField] private Image _avatar;
         [SerializeField] private List<Image> _lifeIcon;
+
         [SerializeField] private Image _weapon;
         [SerializeField] private Text _ammoValue;
         [SerializeField] private Text _powerValue;
@@ -18,13 +19,14 @@ namespace Managers
 
         private void Start()
         {
+
             OnCharacterPowerChange(GlobalUpgrades.instance.power);
             OnCharacterSpeedChange(GlobalUpgrades.instance.speed);
             OnCharacterLifeChange(GlobalUpgrades.instance.lives);
             EventManager.instance.ActionCharacterSpeedChange += OnCharacterSpeedChange;
             EventManager.instance.ActionOnWeaponFired += OnWeaponFired;
         }
-
+        
         private void OnWeaponFired(int currentAmmo, int maxAmmo)
         {
             _ammoValue.text = currentAmmo + "/" + maxAmmo;
