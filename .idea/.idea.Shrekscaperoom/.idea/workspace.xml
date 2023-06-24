@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UpgradeDeath.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/UpgradeDeath.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Actors/Characters/Enemies/Shrek.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Actors/Characters/Enemies/Shrek.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/EventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/EventManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sounds/SoundEffectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sounds/SoundEffectController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/Damageable/LifeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/Damageable/LifeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Main Menu/Buttons/Level 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Main Menu/Buttons/Level 2.png.meta" afterDir="false" />
+    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="Added screamer and improved death upgrade">
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Donkey Avatar anims.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Donkey Avatar anims.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Actors/Characters/Enemies/Donkey.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Actors/Characters/Enemies/Donkey.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +27,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Textures/In-Game HUD/Weapons/Capture.png.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Textures/In-Game HUD/Weapons/Capture.png.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Textures/In-Game HUD/Weapons/Capture.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scripts/Managers/EventManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.2/Runtime/Intrinsics/x86/Sse2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@12.1.10/Editor/Data/Nodes/Procedural/Noise/GradientNoiseNode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@12.1.10/Editor/Drawing/MaterialGraphPreviewGenerator.cs" root0="SKIP_HIGHLIGHTING" />
@@ -134,7 +124,7 @@
       <workItem from="1684517741389" duration="3648000" />
       <workItem from="1687004512505" duration="12368000" />
       <workItem from="1687549044510" duration="6911000" />
-      <workItem from="1687624168668" duration="2010000" />
+      <workItem from="1687624168668" duration="5255000" />
     </task>
     <task id="LOCAL-00001" summary="Menu and Victory. Missing sound!">
       <created>1683765452632</created>
@@ -297,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687585348842</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Added screamer and improved death upgrade">
+      <created>1687626236671</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1687626236671</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,6 +350,7 @@
     <MESSAGE value="FIXED HUD" />
     <MESSAGE value="Added skybox" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="Added screamer and improved death upgrade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added screamer and improved death upgrade" />
   </component>
 </project>
