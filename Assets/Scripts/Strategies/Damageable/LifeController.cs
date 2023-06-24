@@ -38,8 +38,8 @@ public class LifeController : MonoBehaviour, IDamageable
     {
         if (name == CHARACTER_GAMEOBJECT_NAME) 
             EventManager.instance.ActionGameOver(false);
-        else if (name == MACHINE_NAME) 
-            EventManager.instance.ActionGameOver(true);
+        //else if (name == MACHINE_NAME) 
+            //EventManager.instance.ActionGameOver(true);
         else if (name == DOOR_GAMEOBJECT_NAME || name == CDOOR_GAMEOBJECT_NAME)
             EventManager.instance.StartChase(true);
         Destroy(this.gameObject);
