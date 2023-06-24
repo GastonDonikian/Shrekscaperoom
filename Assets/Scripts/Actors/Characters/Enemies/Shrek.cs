@@ -1,30 +1,22 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Sounds;
+
 using UnityEngine;
 using UnityEngine.AI;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using GlobalScripts;
-using Unity.VisualScripting;
-using UnityEngine;
+
 using UnityEngine.UI;
 public class Shrek : Actor
 {
     private NavMeshAgent _shrek;
     public Transform Target;
     private MovementController _movementController;
-    private SoundDamageEffectController _soundDamageEffectController;
     [SerializeField] private Image _screamerImage;
     private bool doorDestroyed = false;
     private Animator _animator;
+    private bool collided = false;
+    private IDamageable _damageable = null;
     private void Start()
     {
         _screamerImage.enabled = false;
         _screamerImage.GetComponent<AudioSource>().enabled = false;
-        _soundDamageEffectController = GetComponent<SoundDamageEffectController>();
         _shrek = GetComponent<NavMeshAgent>();
         _animator = GetComponent<Animator>();
         EventManager.instance.OnChase += OnChase;
@@ -42,16 +34,25 @@ public class Shrek : Actor
     public void OnCollisionEnter(Collision collision)
     {
         //if collided with character give character damage
-        if (collision.gameObject.layer == 6)
+        if (collision.gameObject.layer == 6 && !collided)
         {
+            collided = true;
             _screamerImage.enabled = true;
             _screamerImage.GetComponent<AudioSource>().enabled = true;
             _screamerImage.GetComponent<AudioSource>().Play();
-            _soundDamageEffectController.OnDamage();
             var damageable = collision.gameObject.GetComponent<IDamageable>();
-            if (damageable != null) EventQueueManager.instance.AddEvent(new CmdApplyDamage(damageable, 10000));
+            if (damageable != null)
+            {
+                _damageable = damageable;
+                Invoke("ApplyDamage", 1f);
+            }
             
         }
+    }
+
+    private void ApplyDamage()
+    {
+        EventQueueManager.instance.AddEvent(new CmdApplyDamage(_damageable, 10000));
     }
     
     private void OnChase(bool isBroken)
