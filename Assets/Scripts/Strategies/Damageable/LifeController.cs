@@ -7,7 +7,6 @@ using UnityEngine;
 public class LifeController : MonoBehaviour, IDamageable
 {
     public const string CHARACTER_GAMEOBJECT_NAME = "Character";
-    [CanBeNull] private const string MACHINE_NAME = "Machine_3";
     private const string DOOR_GAMEOBJECT_NAME = "Door";
     private const string CDOOR_GAMEOBJECT_NAME = "Connected Door";
     public int MaxLife => GetComponent<Actor>().ActorStats.MaxLife;
@@ -37,9 +36,7 @@ public class LifeController : MonoBehaviour, IDamageable
     public void Die()
     {
         if (name == CHARACTER_GAMEOBJECT_NAME) 
-            EventManager.instance.ActionGameOver(false, CHARACTER_GAMEOBJECT_NAME);
-        //else if (name == MACHINE_NAME) 
-            //EventManager.instance.ActionGameOver(true);
+            EventManager.instance.ActionGameOver(false);
         else if (name == DOOR_GAMEOBJECT_NAME || name == CDOOR_GAMEOBJECT_NAME)
             EventManager.instance.StartChase(true);
         Destroy(this.gameObject);
