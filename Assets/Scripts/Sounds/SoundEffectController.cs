@@ -18,7 +18,7 @@ public class SoundEffectController : MonoBehaviour
         EventManager.instance.OnGameOver += OnGameOver;
     }
     
-    private void OnGameOver(bool isVictory, string cause)
+    private void OnGameOver(bool isVictory)
     {
         _audioSource.PlayOneShot(isVictory ? _victory : _defeat);
     }
