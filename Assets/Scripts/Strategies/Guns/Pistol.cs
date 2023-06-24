@@ -13,12 +13,24 @@ public class Pistol : Gun
     [SerializeField] private GameObject hitEffect;
     [SerializeField] private List<int> _layerMask;
     [SerializeField] private Camera _camera;
+    
+    public AudioSource AudioSource => _audioSource;
+    private AudioSource _audioSource;
+    
+    [SerializeField] private List<AudioClip> _misses;
+    
+    [SerializeField] private AudioClip _reload;
+    [SerializeField] private AudioClip _shoot;
+    [SerializeField] private AudioClip _hit;
+    private int _index;
+    
     public override bool Attack()
     {
         if (base.Attack() == true)
         {
             _animator.SetTrigger("Shoot");
             _muzzleFlash.Play();
+            _audioSource.PlayOneShot(_shoot);
             Shoot();
             return true;
         }
@@ -30,6 +42,7 @@ public class Pistol : Gun
         
         if (base.Reload() == true)
         {
+            _audioSource.PlayOneShot(_reload);
             _animator.SetTrigger("Reload");
             return true;
         }
@@ -41,6 +54,8 @@ public class Pistol : Gun
     private void Start()
     {
         _animator = GetComponentInChildren<Animator>();
+        _index = 0;
+        _audioSource = GetComponent<AudioSource>();
     }
 
     private void Shoot()
@@ -56,11 +71,14 @@ public class Pistol : Gun
                 {
                     EventQueueManager.instance.AddEvent(new CmdApplyDamage(damageable, Damage + GlobalUpgrades.instance.power));
                 }
+                _audioSource.PlayOneShot(_hit);
                 GameObject explosion = Instantiate(hitEffect, hit.point, Quaternion.LookRotation(transform.forward));
                 Destroy(explosion, 0.2f);
             }
             else
             {
+                _audioSource.PlayOneShot(_misses[_index]);
+                _index = (_index + 1) % _misses.Count;
                 GameObject explosion = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
                 Destroy(explosion, 0.2f);
             }
