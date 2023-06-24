@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
     
 
 
-    private void OnGameOver(bool isVictory)
+    private void OnGameOver(bool isVictory, string cause)
     {
         if (!isVictory && GlobalUpgrades.instance.lives > 0)
         {

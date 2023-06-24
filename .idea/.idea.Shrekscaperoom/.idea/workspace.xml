@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="Added skybox">
+    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UpgradeDeath.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/UpgradeDeath.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Actors/Characters/Enemies/Shrek.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Actors/Characters/Enemies/Shrek.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/EventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/EventManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sounds/SoundEffectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sounds/SoundEffectController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/Damageable/LifeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/Damageable/LifeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Main Menu/Buttons/Level 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Main Menu/Buttons/Level 2.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +134,7 @@
       <workItem from="1684517741389" duration="3648000" />
       <workItem from="1687004512505" duration="12368000" />
       <workItem from="1687549044510" duration="6911000" />
+      <workItem from="1687624168668" duration="2010000" />
     </task>
     <task id="LOCAL-00001" summary="Menu and Victory. Missing sound!">
       <created>1683765452632</created>
@@ -280,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687581770259</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="fix">
+      <created>1687585348842</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1687585348842</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +352,7 @@
     <MESSAGE value="Fixed UI" />
     <MESSAGE value="FIXED HUD" />
     <MESSAGE value="Added skybox" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added skybox" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
