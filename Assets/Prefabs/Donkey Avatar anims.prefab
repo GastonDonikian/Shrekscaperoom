@@ -984,6 +984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _actorStats: {fileID: 11400000, guid: 350abce3d1bff5f4584f1c1d56b80673, type: 2}
+  _explosionFxPrefab: {fileID: 1121192042590650, guid: e1b08032bec16ba4eb1ae23cbd572664, type: 3}
 --- !u!195 &4881276789765416941
 NavMeshAgent:
   m_ObjectHideFlags: 0

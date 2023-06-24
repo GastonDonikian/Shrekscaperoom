@@ -9,6 +9,7 @@ public class Donkey : Actor
 {
     private NavMeshAgent _donkey;
     private Transform _target;
+    [SerializeField] private GameObject _explosionFxPrefab;
 
     private MovementController _movementController;
     private SoundDamageEffectController _soundDamageEffectController;
@@ -43,9 +44,20 @@ public class Donkey : Actor
             _soundDamageEffectController.OnDamage();
             var movable = collision.gameObject.GetComponent<IMovable>();
             if (movable != null) EventQueueManager.instance.AddEvent(new CmdReduceSpeed(movable, 1));
+            Explosion();
             collided = true;
             Destroy(this.gameObject,0.5f);
         }
     }
+    
+    private void Explosion()
+    {
+        //instancia visual effect
+        Instantiate(_explosionFxPrefab, transform.position, transform.rotation, transform);
+        //encontrar objetos cercanos
+        this.enabled = false;
+        Debug.Log("BOOOOM!");
+        Invoke("DestroyGranade", 0.5f);
+    }   
 }
 

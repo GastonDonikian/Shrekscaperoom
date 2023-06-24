@@ -49,7 +49,10 @@ public class Shrek : Actor
             _screamerImage.GetComponent<AudioSource>().Play();
             _soundDamageEffectController.OnDamage();
             var damageable = collision.gameObject.GetComponent<IDamageable>();
-            if (damageable != null) EventQueueManager.instance.AddEvent(new CmdApplyDamage(damageable, 10000));
+            if (damageable != null)
+            {
+                EventQueueManager.instance.AddEvent(new CmdApplyDamage(damageable, 10000));
+            }
             
         }
     }
