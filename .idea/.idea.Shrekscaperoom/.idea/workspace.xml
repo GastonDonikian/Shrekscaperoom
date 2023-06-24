@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="FIXED HUD">
+    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="Added skybox">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Hit Impact Effects/Pipeline Upgrade/Hit Impact Effects FREE - URP.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Commands/CmdReduceSpeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Commands/CmdReduceSpeed.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Strategies/MovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Strategies/MovementController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687559953242</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Added skybox">
+      <created>1687581770259</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1687581770259</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +334,7 @@
     <MESSAGE value="Improved UI" />
     <MESSAGE value="Fixed UI" />
     <MESSAGE value="FIXED HUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="FIXED HUD" />
+    <MESSAGE value="Added skybox" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added skybox" />
   </component>
 </project>
