@@ -4,50 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="Added paintings">
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Materials/PedroRoberto_shrek_and_his_family_as_angles_dancing_in_the_styl_bb5dcc52-aef9-4c4d-9c6f-0f1b916ffdd0.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Materials/PedroRoberto_shrek_and_his_family_as_angles_dancing_in_the_styl_bb5dcc52-aef9-4c4d-9c6f-0f1b916ffdd0.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Materials/PedroRoberto_shrek_and_his_family_very_happy_in_the_style_of_va_d7d74070-bcaf-4b0b-a32c-b21d25881392.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Materials/PedroRoberto_shrek_and_his_family_very_happy_in_the_style_of_va_d7d74070-bcaf-4b0b-a32c-b21d25881392.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/PedroRoberto_shrek_and_his_family_as_angles_dancing_in_the_styl_bb5dcc52-aef9-4c4d-9c6f-0f1b916ffdd0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/PedroRoberto_shrek_and_his_family_as_angles_dancing_in_the_styl_bb5dcc52-aef9-4c4d-9c6f-0f1b916ffdd0.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/PedroRoberto_shrek_and_his_family_in_the_style_of_picaso_6e2b4115-c2c8-47c3-a30e-2da5c443886e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/PedroRoberto_shrek_and_his_family_in_the_style_of_picaso_6e2b4115-c2c8-47c3-a30e-2da5c443886e.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/PedroRoberto_shrek_and_his_family_very_happy_in_the_style_of_re_0cef746b-5f6a-41b4-8996-58b0e3d8f6aa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/PedroRoberto_shrek_and_his_family_very_happy_in_the_style_of_re_0cef746b-5f6a-41b4-8996-58b0e3d8f6aa.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/PedroRoberto_shrek_and_his_family_very_happy_in_the_style_of_va_d7d74070-bcaf-4b0b-a32c-b21d25881392.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/PedroRoberto_shrek_and_his_family_very_happy_in_the_style_of_va_d7d74070-bcaf-4b0b-a32c-b21d25881392.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/art_d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/art_d.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/art_n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/art_n.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/picture_ao.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/picture_ao.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/picture_d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/picture_d.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/picture_n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/picture_n.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/picture_s.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/picture_s.tga.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/art.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/art.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 3.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture.prefab.meta" afterDir="false" />
+    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="Frames">
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/box_match.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/box_match.PNG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/fiona.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/fiona.PNG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/mona_fiona.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/mona_fiona.PNG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/shrek_and.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/shrek_and.PNG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 4.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 5.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 5.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 6.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 6.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 7.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 7.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 8.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 8.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture.mat.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +146,7 @@
       <workItem from="1687004512505" duration="12368000" />
       <workItem from="1687549044510" duration="6911000" />
       <workItem from="1687624168668" duration="8659000" />
-      <workItem from="1687642684370" duration="2288000" />
+      <workItem from="1687642684370" duration="4254000" />
     </task>
     <task id="LOCAL-00001" summary="Menu and Victory. Missing sound!">
       <created>1683765452632</created>
@@ -359,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687642831671</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added paintings">
+      <created>1687647239984</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1687647239984</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,7 +377,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Merge." />
     <MESSAGE value="Added upgrade scene" />
     <MESSAGE value="Sound effects" />
     <MESSAGE value="sounds" />
@@ -417,6 +401,7 @@
     <MESSAGE value="Merge" />
     <MESSAGE value="Lights and prefab altering" />
     <MESSAGE value="Added paintings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added paintings" />
+    <MESSAGE value="Frames" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frames" />
   </component>
 </project>
