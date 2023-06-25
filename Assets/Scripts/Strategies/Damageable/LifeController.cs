@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using JetBrains.Annotations;
+using Sounds;
 using UnityEngine;
 
 public class LifeController : MonoBehaviour, IDamageable
@@ -9,6 +10,12 @@ public class LifeController : MonoBehaviour, IDamageable
     public const string CHARACTER_GAMEOBJECT_NAME = "Character";
     private const string DOOR_GAMEOBJECT_NAME = "Door";
     private const string CDOOR_GAMEOBJECT_NAME = "Connected Door";
+    private const string MACHINE_GAMEOBJECT_NAME = "Machine_3";
+    
+    [SerializeField] private SoundDamageEffectController _soundDamageEffectController;
+    
+    [SerializeField] private GameObject _explosionFxPrefab;
+
     public int MaxLife => GetComponent<Actor>().ActorStats.MaxLife;
     public int CurrentLife => _currentLife;
     [SerializeField] private int _currentLife;
@@ -35,10 +42,22 @@ public class LifeController : MonoBehaviour, IDamageable
 
     public void Die()
     {
-        if (name == CHARACTER_GAMEOBJECT_NAME) 
+        if (name == CHARACTER_GAMEOBJECT_NAME)
             EventManager.instance.ActionGameOver(false);
         else if (name == DOOR_GAMEOBJECT_NAME || name == CDOOR_GAMEOBJECT_NAME)
             EventManager.instance.StartChase(true);
+        else if (name == MACHINE_GAMEOBJECT_NAME)
+        {
+            Instantiate(_explosionFxPrefab, transform.position, transform.rotation, transform);
+            _soundDamageEffectController.OnDamage();
+            Invoke("DestroyMachine", 0.1f);
+            return;
+        }
+        Destroy(this.gameObject);
+    }
+    
+    private void DestroyMachine()
+    {
         Destroy(this.gameObject);
     }
 

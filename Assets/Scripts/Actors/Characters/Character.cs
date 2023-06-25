@@ -1,5 +1,9 @@
-﻿ using System.Collections.Generic;
+﻿ using System;
+ using System.Collections.Generic;
+ using Sounds;
+ using Unity.VisualScripting;
  using UnityEngine;
+ using Random = UnityEngine.Random;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
@@ -23,6 +27,8 @@ namespace StarterAssets
         
         [SerializeField] private List<Gun> _availableWeapons;
         [SerializeField] private Gun _currentWeapon;
+        private SoundDamageEffectController _soundDamageEffectController;
+        
 
         //Weapon cmds
         private CmdAttack _cmdAttack;
@@ -149,6 +155,8 @@ namespace StarterAssets
             _cmdAttack = new CmdAttack(_currentWeapon);
             _cmdReload = new CmdReload(_currentWeapon);
             _movementController = GetComponent<MovementController>();
+            
+            _soundDamageEffectController = GetComponent<SoundDamageEffectController>();
 
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
             
@@ -422,6 +430,14 @@ namespace StarterAssets
         
             _cmdAttack = new CmdAttack(_currentWeapon);
             _cmdReload = new CmdReload(_currentWeapon);
+        }
+
+        public void OnCollisionEnter(Collision other)
+        {
+            if (other.gameObject.layer == 8)
+            {
+                _soundDamageEffectController.OnDamage();
+            }
         }
     }
 }

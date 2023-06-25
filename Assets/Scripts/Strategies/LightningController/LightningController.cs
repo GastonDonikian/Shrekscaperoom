@@ -10,7 +10,7 @@ public class LightningController : MonoBehaviour
     public AudioSource AudioSource => _audioSource;
     private AudioSource _audioSource;
     [SerializeField] private AudioClip _lightningClip;
-    private bool lightningCalled = false;
+    private bool lightningCalled = true;
     private void Start()
     {
         _audioSource = GetComponent<AudioSource>();
@@ -18,6 +18,8 @@ public class LightningController : MonoBehaviour
         {
             lightning.SetActive(false);
         }
+        float rand = Random.Range(3.5f, 7.5f);
+        Invoke("SetCalled", rand); 
     }
 
     void CallLightning()

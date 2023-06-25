@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Commands;
 using Sounds;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -57,7 +58,8 @@ public class Donkey : Actor
         //encontrar objetos cercanos
         this.enabled = false;
         Debug.Log("BOOOOM!");
-        Invoke("DestroyGranade", 0.5f);
-    }   
+        Invoke("DestroyDonkey", 0.5f);
+    }
+    private void DestroyDonkey() => Destroy(this.GameObject());
 }
 
