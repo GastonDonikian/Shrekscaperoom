@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LoadLevelAsync.unity
     guid: 5ade3f576d0f8a546a994343341ec74a
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
+    path: Assets/Scenes/Level1/Level1.unity
     guid: 966bed52b0e1413ca9f7f92aa4039001
   - enabled: 1
     path: Assets/Scenes/UpgradeDeath.unity
