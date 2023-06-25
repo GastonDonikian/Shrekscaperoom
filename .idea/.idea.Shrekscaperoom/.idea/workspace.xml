@@ -4,28 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="Frames">
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/box_match.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/box_match.PNG.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/fiona.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/fiona.PNG.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/mona_fiona.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/mona_fiona.PNG.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/shrek_and.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/Textures/shrek_and.PNG.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 4.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 4.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 5.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 5.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 6.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 6.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 7.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 7.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 8.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 8.mat.meta" afterDir="false" />
+    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="merge">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/MenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +29,8 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scenes/Level1.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scenes/Level1.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scenes/Level1.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scripts/Actors/Characters/Enemies/Shrek.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scripts/Actors/Characters/Enemies/Shrek.cs" root0="SKIP_HIGHLIGHTING" />
@@ -146,7 +131,7 @@
       <workItem from="1687004512505" duration="12368000" />
       <workItem from="1687549044510" duration="6911000" />
       <workItem from="1687624168668" duration="8659000" />
-      <workItem from="1687642684370" duration="4254000" />
+      <workItem from="1687642684370" duration="7303000" />
     </task>
     <task id="LOCAL-00001" summary="Menu and Victory. Missing sound!">
       <created>1683765452632</created>
@@ -344,7 +329,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687647239984</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Frames">
+      <created>1687650147767</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1687650147767</updated>
+    </task>
+    <task id="LOCAL-00030" summary="merge">
+      <created>1687650242503</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1687650242503</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +388,6 @@
     <MESSAGE value="fix EndGameManager" />
     <MESSAGE value="jbvh mhjgv" />
     <MESSAGE value="Added UI" />
-    <MESSAGE value="merge" />
     <MESSAGE value="Added UI connection and animation" />
     <MESSAGE value="Improved UI" />
     <MESSAGE value="Fixed UI" />
@@ -402,6 +400,7 @@
     <MESSAGE value="Lights and prefab altering" />
     <MESSAGE value="Added paintings" />
     <MESSAGE value="Frames" />
-    <option name="LAST_COMMIT_MESSAGE" value="Frames" />
+    <MESSAGE value="merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge" />
   </component>
 </project>
