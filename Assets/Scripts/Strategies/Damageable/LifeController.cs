@@ -50,7 +50,7 @@ public class LifeController : MonoBehaviour, IDamageable
         {
             Instantiate(_explosionFxPrefab, transform.position, transform.rotation, transform);
             _soundDamageEffectController.OnDamage();
-            Invoke("DestroyMachine", 0.1f);
+            Invoke("DestroyMachine", 0.7f);
             return;
         }
         Destroy(this.gameObject);
