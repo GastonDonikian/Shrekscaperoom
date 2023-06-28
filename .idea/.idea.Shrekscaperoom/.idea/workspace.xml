@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="dd" />
+    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="dd">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/art.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/art.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/SkySeries Freebie/DarkStorm.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/SkySeries Freebie/DarkStorm.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/TerrainSampleAssets/Materials/Grass.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/TerrainSampleAssets/Materials/Grass.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/TerrainSampleAssets/TerrainBrushes/Noise_Soft_Brush.brush" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/TerrainSampleAssets/TerrainBrushes/Noise_Soft_Brush.brush" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Canyon02_Brush.brush" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Canyon02_Brush.brush" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Rollinghills01_Brush.brush" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Rollinghills01_Brush.brush" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ShrekModel anims.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ShrekModel anims.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Level1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1/Level1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Actors/Grenade/GranadeThrowController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Actors/Grenade/GranadeThrowController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GunStats/Pistol.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/GunStats/Pistol.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,15 +44,9 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scenes/Level1.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scenes/Level1.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scenes/Level1.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scenes/Level1/Level1.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scripts/Actors/Characters/Enemies/Shrek.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/Assets/Scripts/Actors/Characters/Enemies/Shrek.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.burst@1.8.2/Runtime/Intrinsics/x86/Sse2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@12.1.10/Editor/Data/Nodes/Procedural/Noise/GradientNoiseNode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@12.1.10/Editor/Drawing/MaterialGraphPreviewGenerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@12.1.10/Editor/Importers/ShaderGraphImporter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/DefaultControls.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Dropdown.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
@@ -40,10 +54,6 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/EventSystem/InputModuleTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/EventSystem/SelectableTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/InputField/TouchInputFieldTests.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://E:/Unity/UnityProjects/Shrekscaperoom/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2PcHUuVc0Vf0SmEMyKsTx2elIx4" />
@@ -54,29 +64,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\User\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\User\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\espin\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\espin\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\espin\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/OneDrive/Documents/itba/2023/unityexes\Shrekscaperoom.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\espin\OneDrive\Documents\itba\2023\unityexes" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="E:\Unity\2021.3.20f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath E:\Unity\UnityProjects\Shrekscaperoom -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="E:\Unity\UnityProjects\Shrekscaperoom" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -84,7 +102,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="E:\Unity\2021.3.20f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath E:\Unity\UnityProjects\Shrekscaperoom -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="E:\Unity\UnityProjects\Shrekscaperoom" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -132,6 +150,7 @@
       <workItem from="1687549044510" duration="6911000" />
       <workItem from="1687624168668" duration="8659000" />
       <workItem from="1687642684370" duration="8992000" />
+      <workItem from="1687919319615" duration="725000" />
     </task>
     <task id="LOCAL-00001" summary="Menu and Victory. Missing sound!">
       <created>1683765452632</created>

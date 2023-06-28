@@ -118,6 +118,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &5838044388572191609
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506460578072637172}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: -1
+  m_Mesh: {fileID: 3267756775288494525, guid: 1c21aea80b20d7448a3f57583042d9e7, type: 3}
 --- !u!82 &7617849861821641394
 AudioSource:
   m_ObjectHideFlags: 0
@@ -249,6 +263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _actorStats: {fileID: 11400000, guid: c557984ce4c70464bbf7587bb3c56f11, type: 2}
   Target: {fileID: 0}
+  _screamerImage: {fileID: 0}
 --- !u!114 &7617849861821641295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -303,17 +318,3 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!64 &5838044388572191609
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 506460578072637172}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3267756775288494525, guid: 1c21aea80b20d7448a3f57583042d9e7, type: 3}
