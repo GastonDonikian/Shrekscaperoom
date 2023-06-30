@@ -20,6 +20,7 @@ public class Shrek : Actor
         _shrek = GetComponent<NavMeshAgent>();
         _animator = GetComponent<Animator>();
         EventManager.instance.OnChase += OnChase;
+        EventManager.instance.ActionDonkeyKilled += OnDonkeyKilled;
     }
 
     void Update()
@@ -29,6 +30,10 @@ public class Shrek : Actor
             _shrek.SetDestination(Target.position);
             _animator.SetBool("isMoving", _shrek.velocity.magnitude > 0.1f);
         }
+    }
+    void OnDonkeyKilled(int currentKills)
+    {
+        _shrek.speed += 0.6f;
     }
     
     public void OnCollisionEnter(Collision collision)

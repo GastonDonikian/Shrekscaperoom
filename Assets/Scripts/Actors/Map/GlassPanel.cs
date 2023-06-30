@@ -14,6 +14,6 @@ public class GlassPanel : MonoBehaviour
     // Update is called once per frame
     private void OnDonkeyKilled(int currentKills)
     {
-        if (currentKills >= _totalDonkeysKills) Destroy(this.gameObject);
+        if (currentKills == _totalDonkeysKills) Destroy(this.gameObject);
     }
 }
