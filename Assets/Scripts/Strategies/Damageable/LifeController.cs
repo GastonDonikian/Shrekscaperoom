@@ -15,6 +15,7 @@ public class LifeController : MonoBehaviour, IDamageable
     [SerializeField] private SoundDamageEffectController _soundDamageEffectController;
     
     [SerializeField] private GameObject _explosionFxPrefab;
+    [SerializeField] private AudioSource _explosionSound;
 
     public int MaxLife => GetComponent<Actor>().ActorStats.MaxLife;
     public int CurrentLife => _currentLife;
@@ -51,6 +52,7 @@ public class LifeController : MonoBehaviour, IDamageable
         else if (name == MACHINE_GAMEOBJECT_NAME)
         {
             Instantiate(_explosionFxPrefab, transform.position, transform.rotation, transform);
+            _explosionSound.PlayOneShot(_explosionSound.GetComponent<AudioClip>());
             _soundDamageEffectController.OnDamage();
             Invoke("DestroyMachine", 0.7f);
             return;
