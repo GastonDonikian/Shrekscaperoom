@@ -837,7 +837,7 @@ GameObject:
   - component: {fileID: 4598640653871726009}
   - component: {fileID: 4914884315949500456}
   m_Layer: 8
-  m_Name: Donkey Avatar anims
+  m_Name: Donkey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
