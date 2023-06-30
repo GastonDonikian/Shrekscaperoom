@@ -6,18 +6,15 @@ using Random = UnityEngine.Random;
 
 public class LightningController : MonoBehaviour
 {
-    [SerializeField] private GameObject[] _lightnings;
     public AudioSource AudioSource => _audioSource;
     private AudioSource _audioSource;
     [SerializeField] private AudioClip _lightningClip;
     private bool lightningCalled = true;
     private void Start()
     {
+        RenderSettings.ambientIntensity = 0f;
         _audioSource = GetComponent<AudioSource>();
-        foreach (var lightning in _lightnings)
-        {
-            lightning.SetActive(false);
-        }
+        
         float rand = Random.Range(3.5f, 7.5f);
         Invoke("SetCalled", rand); 
     }
@@ -25,7 +22,7 @@ public class LightningController : MonoBehaviour
     void CallLightning()
     {
         int r = Random.Range(0, 3);
-        _lightnings[r].SetActive(true);
+        RenderSettings.ambientIntensity = 4f;
         Invoke("TurnOffLightning", .75f + .25f * r);
         Invoke("CallThunder",r *.2f );
         float rand = Random.Range(3.5f, 7.5f);
@@ -33,10 +30,7 @@ public class LightningController : MonoBehaviour
     }
     void TurnOffLightning()
     {
-        foreach (var lightning in _lightnings)
-        {
-            lightning.SetActive(false);
-        }
+        RenderSettings.ambientIntensity = 0f;
     }
 
     void CallThunder()
