@@ -11,7 +11,7 @@ public class LifeController : MonoBehaviour, IDamageable
     private const string DOOR_GAMEOBJECT_NAME = "Door";
     private const string CDOOR_GAMEOBJECT_NAME = "Connected Door";
     private const string MACHINE_GAMEOBJECT_NAME = "Machine_3";
-    private const string DONKEY_GAMEOBJECT_NAME = "Donkey";
+    private const string DONKEY_GAMEOBJECT_NAME = "Donkey(Clone)";
     [SerializeField] private SoundDamageEffectController _soundDamageEffectController;
     
     [SerializeField] private GameObject _explosionFxPrefab;
