@@ -11,7 +11,7 @@ public class LifeController : MonoBehaviour, IDamageable
     private const string DOOR_GAMEOBJECT_NAME = "Door";
     private const string CDOOR_GAMEOBJECT_NAME = "Connected Door";
     private const string MACHINE_GAMEOBJECT_NAME = "Machine_3";
-    
+    private const string DONKEY_GAMEOBJECT_NAME = "Donkey";
     [SerializeField] private SoundDamageEffectController _soundDamageEffectController;
     
     [SerializeField] private GameObject _explosionFxPrefab;
@@ -44,6 +44,8 @@ public class LifeController : MonoBehaviour, IDamageable
     {
         if (name == CHARACTER_GAMEOBJECT_NAME)
             EventManager.instance.ActionGameOver(false);
+        else if (name == DONKEY_GAMEOBJECT_NAME)
+            EventManager.instance.OnDonkeyKilled();
         else if (name == DOOR_GAMEOBJECT_NAME || name == CDOOR_GAMEOBJECT_NAME)
             EventManager.instance.StartChase(true);
         else if (name == MACHINE_GAMEOBJECT_NAME)
