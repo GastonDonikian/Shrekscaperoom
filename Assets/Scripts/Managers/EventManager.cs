@@ -6,7 +6,7 @@ using UnityEngine;
 public class EventManager : MonoBehaviour
 {
     public static EventManager instance;
-
+    public int _donkeyCount;
     private void Awake()
     {
         if (instance != null) Destroy(this);
@@ -19,6 +19,15 @@ public class EventManager : MonoBehaviour
     public event Action<bool> OnChase;
 
     public event Action<int, int> ActionOnWeaponFired;
+
+    public event Action<int> ActionDonkeyKilled;
+
+    public void OnDonkeyKilled()
+    {
+        instance._donkeyCount += 1;
+        instance.ActionDonkeyKilled(instance._donkeyCount);
+    }
+
     public void ActionGameOver(bool isGameOver) => OnGameOver(isGameOver);
     public void StartChase(bool isDoorBroken) => OnChase(isDoorBroken);
 

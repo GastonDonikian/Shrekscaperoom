@@ -16,6 +16,8 @@ namespace Managers
         [SerializeField] private Text _ammoValue;
         [SerializeField] private Text _powerValue;
         [SerializeField] private Text _speedValue;
+        [SerializeField] private Text _donkeysKilledValue;
+        [SerializeField] private int _totalDonkeysKills;
 
         private void Start()
         {
@@ -23,13 +25,20 @@ namespace Managers
             OnCharacterPowerChange(GlobalUpgrades.instance.power);
             OnCharacterSpeedChange(GlobalUpgrades.instance.speed);
             OnCharacterLifeChange(GlobalUpgrades.instance.lives);
+            OnDonkeyKilled(0);
             EventManager.instance.ActionCharacterSpeedChange += OnCharacterSpeedChange;
             EventManager.instance.ActionOnWeaponFired += OnWeaponFired;
+            EventManager.instance.ActionDonkeyKilled += OnDonkeyKilled;
         }
         
         private void OnWeaponFired(int currentAmmo, int maxAmmo)
         {
             _ammoValue.text = currentAmmo + "/" + maxAmmo;
+        }
+
+        private void OnDonkeyKilled(int currentKills)
+        {
+            _donkeysKilledValue.text = currentKills.ToString() + "/" + _totalDonkeysKills.ToString();
         }
 
         private void OnCharacterLifeChange(int currentLife)
