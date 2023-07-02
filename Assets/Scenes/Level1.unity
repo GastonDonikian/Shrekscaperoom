@@ -12144,7 +12144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2976895794911970869, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2976895794911970870, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
       propertyPath: m_LocalScale.x
@@ -12396,11 +12396,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2976895796411098427, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2
+      value: -1.7
       objectReference: {fileID: 0}
     - target: {fileID: 2976895796411098427, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -150
+      value: -148.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976895796557298744, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976895796557298744, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -94.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976895796557298744, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -55
       objectReference: {fileID: 0}
     - target: {fileID: 2976895796557298745, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
       propertyPath: m_Enabled
@@ -12412,31 +12424,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2976895796557298745, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
       propertyPath: m_EffectColor.b
-      value: 0.16862746
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2976895796557298745, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
       propertyPath: m_EffectColor.g
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2976895796557298745, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
       propertyPath: m_EffectColor.r
-      value: 0.654902
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2976895796557298746, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
       propertyPath: m_Color.a
-      value: 1
+      value: 0.74509805
       objectReference: {fileID: 0}
     - target: {fileID: 2976895796557298746, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 0.2672659
       objectReference: {fileID: 0}
     - target: {fileID: 2976895796557298746, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 0.35488188
       objectReference: {fileID: 0}
     - target: {fileID: 2976895796557298746, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
       propertyPath: m_Color.r
+      value: 0.735849
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976895796557298746, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976895796557298746, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
+      propertyPath: m_FontData.m_MinSize
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976895796557298746, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976895796557298746, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976895796908720660, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 3596926270621113010, guid: ee1bcd93d3a1f9c449ccca9833dbbd25, type: 3}
       propertyPath: m_LocalPosition.z
