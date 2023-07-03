@@ -4,155 +4,110 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="dd">
+    <list default="true" id="5668a68f-0b32-44b4-8227-b920f4393ecd" name="Changes" comment="nuevo terrain hihihiha, falta pintar">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shrekscaperoom/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/art.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/art.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 4.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 4.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 5.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 5.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 6.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 6.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 7.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 7.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 8.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 8.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 9.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Classic Picture Frame/picture 9.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Door Texture Pack/Materials/Door_Industrial_01_dark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Door Texture Pack/Materials/Door_Industrial_01_dark.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Door Texture Pack/Materials/Door_Industrial_Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Door Texture Pack/Materials/Door_Industrial_Green.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Industrial_Machine_Models/Materials/Machine_3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Industrial_Machine_Models/Materials/Machine_3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle1blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle1blue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle1green_emission.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle1green_emission.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle2_blueEmission.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle2_blueEmission.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle2_colormap.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle2_colormap.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle2_greenEmission.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle2_greenEmission.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle3_BlueEmission.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle3_BlueEmission.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle3_colormap.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle3_colormap.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle3_greenEmission.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Candle3_greenEmission.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/CarvedLampPost.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/CarvedLampPost.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/CarvedLampPost2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/CarvedLampPost2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Glass2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Glass2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Glass3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Glass3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Glass5.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Glass5.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Lamp2colormap.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Lamp2colormap.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Lamp3_colormap.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Lamp3_colormap.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/LampPost_wall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/LampPost_wall.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Latern1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Latern1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Latern4_colormap.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Latern4_colormap.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Latern5.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Latern5.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Latern_glass1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Latern_glass1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/LittleLamp.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/LittleLamp.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Wall Lamp.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/Wall Lamp.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/chandelier.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/chandelier.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/green_flame.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/green_flame.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/lamp post.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/lamp post.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/lattice.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/lattice.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/lustre.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/lustre.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/red_flame.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/Materials/red_flame.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/textures/Glass2 [Albedo].psd.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/Laterns and candles/textures/Glass2 [Albedo].psd.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Arms.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Arms.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/TerrainSampleAssets/Materials/Fern.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/TerrainSampleAssets/Materials/Fern.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/TerrainSampleAssets/Materials/Heather.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/TerrainSampleAssets/Materials/Heather.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Leafs19.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Leafs19.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Leafs19_N.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Leafs19_N.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Materials/leaf.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Materials/leaf.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_1_Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_1_Textures/diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_1_Textures/diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_1_Textures/normal_specular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_1_Textures/normal_specular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_1_Textures/shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_1_Textures/shadow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_1_Textures/translucency_gloss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_1_Textures/translucency_gloss.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_3.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_3.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_4.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_4.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_5.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_5.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_Leaf.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_Leaf.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_leafs.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/Tree9_leafs.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/bark14.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/bark14.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/bark14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/bark14.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/bark14_N.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/bark14_N.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/tree9.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/tree9.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/tree9Settings.lighting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/Tree9/tree9Settings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Birch_tree1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Birch_tree1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Deciduous_tree1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Deciduous_tree1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Oak_tree1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/FBX/Oak_tree1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_bark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_bark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Birch_leaves.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Oak_bark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Oak_bark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Oak_leaves.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Oak_leaves.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Tree_bark1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Tree_bark1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Tree_leaves1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Materials/Tree_leaves1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Birch_tree2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Deciduous_tree1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Deciduous_tree1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Oak_tree1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Prefabs/Oak_tree1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Birch_bark.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Birch_bark.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Birch_leaves.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Birch_leaves.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Oak_bark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Oak_bark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Tree_bark1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Tree_bark1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Tree_leaves1.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/Tree_leaves1.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/oak_leaves.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Ambient-Occlusion-Trees/Textures/oak_leaves.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/FBX/Flower1.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/FBX/Flower1.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/FBX/Flower2.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/FBX/Flower2.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/FBX/Grass1.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/FBX/Grass1.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/FBX/Mushroom1.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/FBX/Mushroom1.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/FBX/Rock1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/FBX/Rock1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Materials/Plant.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Materials/Plant.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Materials/Rock1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Materials/Rock1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Prefabs/Flower1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Prefabs/Flower1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Prefabs/Flower2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Prefabs/Flower2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Prefabs/Grass1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Prefabs/Grass1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Prefabs/Mushroom1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Prefabs/Mushroom1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Prefabs/Rock1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Prefabs/Rock1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/README.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Scenes/DemoScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Scenes/DemoScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Scenes/DemoSceneSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Scenes/DemoSceneSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Terrain.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Terrain.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Textures/Plant.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Textures/Plant.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Textures/Rock1.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Textures/Rock1.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_grasscd2d2d038030d602.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_grasscd2d2d038030d602.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_roadcd2d2d038030d602.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_roadcd2d2d038030d602.terrainlayer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Textures/ground_grass.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Textures/ground_grass.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Textures/ground_road.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/FantasyEnvironments/Environments/Textures/ground_road.tga.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Fire &amp; Explosion Effects/Materials/DebrisParticle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Fire &amp; Explosion Effects/Materials/DebrisParticle.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Fire &amp; Explosion Effects/Materials/Dust.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Fire &amp; Explosion Effects/Materials/Dust.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Fire &amp; Explosion Effects/Materials/PlasmaExplosion.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Fire &amp; Explosion Effects/Materials/PlasmaExplosion.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Fire &amp; Explosion Effects/Materials/SandParticle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Fire &amp; Explosion Effects/Materials/SandParticle.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Fire &amp; Explosion Effects/Materials/SmokeDark.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Fire &amp; Explosion Effects/Materials/SmokeDark.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Fire &amp; Explosion Effects/Prefabs/ParticlesLight.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Fire &amp; Explosion Effects/Prefabs/ParticlesLight.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/DissolveChunks.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/DissolveChunks.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/ElectricalSparks.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/ElectricalSparks.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/SmokePuff.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/SmokePuff.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/Sparks.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/Sparks.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/candle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Materials/candle.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/Dust.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/Dust.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/GroundFog.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/GroundFog.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/RockDebris.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/RockDebris.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/SandParticle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/SandParticle.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/Smoke02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/Smoke02.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/SmokeLight.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/SmokeLight.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/SmokeySteam01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/SmokeySteam01.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/SmokeySteam02.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/SmokeySteam02.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/SmokeySteam03.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Smoke &amp; Steam Effects/Materials/SmokeySteam03.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/BulletDecalMetal.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/BulletDecalMetal.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/BulletDecalSand.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/BulletDecalSand.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/BulletDecalStone.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/BulletDecalStone.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/BulletDecalWood.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/BulletDecalWood.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/BulletFleshDecal.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/BulletFleshDecal.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/DustPuffParticle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/DustPuffParticle.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/FleshSurface.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/FleshSurface.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/GoopSplat2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/GoopSplat2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/GoopStreak.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/GoopStreak.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/MetalSurface.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/MetalSurface.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/RockDebris.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/RockDebris.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/SandSurface.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/SandSurface.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/StoneSurface.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/StoneSurface.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/TinyStonesParticle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/TinyStonesParticle.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/WaterStreamParticle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/WaterStreamParticle.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/WoodSplintersParticle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/WoodSplintersParticle.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/WoodSurface.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AssetStore/UnityTechnologies/ParticlePack/EffectExamples/Weapon Effects/Materials/WoodSurface.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Floor Material/Medieval Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Floor Material/Medieval Floor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Floor Material/Medieval Long Floor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Floor Material/Medieval Long Floor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Glass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Granade.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Granade.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shrek.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Shrek.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wood Wall/Large Wall/Stylize Wood  Diffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Wood Wall/Large Wall/Stylize Wood  Diffuse.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wood Wall/Large Wall/Stylize Wood .mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Wood Wall/Large Wall/Stylize Wood .mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wood Wall/Pane Wall/Stylize Wood  Diffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Wood Wall/Pane Wall/Stylize Wood  Diffuse.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wood Wall/Pane Wall/Stylize Wood .mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Wood Wall/Pane Wall/Stylize Wood .mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wood Wall/Wall/Stylize Wood  Diffuse.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Wood Wall/Wall/Stylize Wood  Diffuse.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wood Wall/Wall/Stylize Wood .mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Wood Wall/Wall/Stylize Wood .mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/babyshrek 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/babyshrek 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/babyshrek 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/babyshrek 2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/babyshrek 3.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/babyshrek 3.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/babyshrek.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/babyshrek.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Terrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Renderers/URP_Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Renderers/URP_Renderer.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +235,7 @@
       <workItem from="1687624168668" duration="8659000" />
       <workItem from="1687642684370" duration="8992000" />
       <workItem from="1687919319615" duration="725000" />
-      <workItem from="1688335948555" duration="912000" />
+      <workItem from="1688335948555" duration="3011000" />
     </task>
     <task id="LOCAL-00001" summary="Menu and Victory. Missing sound!">
       <created>1683765452632</created>
@@ -520,7 +475,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687659144921</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="nuevo terrain hihihiha, falta pintar">
+      <option name="closed" value="true" />
+      <created>1688340114434</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1688340114435</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +516,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Hot Fix." />
     <MESSAGE value="bug fix" />
     <MESSAGE value="donkey takes damage nd slowes you" />
     <MESSAGE value="fix speed power pills lives set to 3." />
@@ -578,6 +540,7 @@
     <MESSAGE value="merge" />
     <MESSAGE value="generated, based, lightmap" />
     <MESSAGE value="dd" />
-    <option name="LAST_COMMIT_MESSAGE" value="dd" />
+    <MESSAGE value="nuevo terrain hihihiha, falta pintar" />
+    <option name="LAST_COMMIT_MESSAGE" value="nuevo terrain hihihiha, falta pintar" />
   </component>
 </project>
