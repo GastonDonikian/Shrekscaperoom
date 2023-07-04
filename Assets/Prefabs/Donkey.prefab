@@ -884,7 +884,7 @@ AudioSource:
   m_GameObject: {fileID: 2261463647069355227}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -625271772763848969, guid: cbe8f0896a60c944b9530485d3a0dd0e, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.2
@@ -1046,7 +1046,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4f18a65d1dca4c43a7b9de81d4d5c29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _soundDamageEffectController: {fileID: 0}
   _explosionFxPrefab: {fileID: 0}
+  _explosionSound: {fileID: 0}
   _currentLife: 0
 --- !u!95 &4598640653871726009
 Animator:

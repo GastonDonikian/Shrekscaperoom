@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using GlobalScripts;
 using Unity.VisualScripting;
@@ -33,14 +34,16 @@ namespace Managers
             EventManager.instance.ActionCharacterSpeedChange += OnCharacterSpeedChange;
             EventManager.instance.ActionOnWeaponFired += OnWeaponFired;
             EventManager.instance.ActionDonkeyKilled += OnDonkeyKilled;
+            StartCoroutine("ChangeStartingOverlay");
         }
 
-        private void Update()
+        IEnumerator ChangeStartingOverlay()
         {
-            if(_transitionImage.color.a > 0){
+            while(_transitionImage.color.a > 0){
                 var tempColor = _transitionImage.color;
                 tempColor.a -= 0.005f;
                 _transitionImage.color = tempColor;
+                yield return null;
             }
         }
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using Cursor = UnityEngine.Cursor;
@@ -14,6 +15,8 @@ namespace Managers
         [SerializeField] private Slider _sliderVolume;
         [SerializeField] private Button _btnCancel;
         [SerializeField] private bool _isActive;
+        [SerializeField] private AudioMixer _audioMixer;
+        [SerializeField] private Image _brightnessOverlay;
         private bool _gamePaused;
         
         private void Update()
@@ -27,6 +30,18 @@ namespace Managers
         private void Start()
         {
             CloseMenu();
+        }
+
+        public void AdjustMusicVolume()
+        {
+            _audioMixer.SetFloat("BG_Music", _sliderVolume.value);
+        }
+
+        public void AdjustBrightness()
+        {
+            Color tempColor = _brightnessOverlay.color;
+            tempColor.a = _sliderBrightness.value;
+            _brightnessOverlay.color = tempColor;
         }
 
         public void OnCancelClick()
