@@ -18,9 +18,13 @@ namespace Managers
         [SerializeField] private Text _speedValue;
         [SerializeField] private Text _donkeysKilledValue;
         [SerializeField] private int _totalDonkeysKills;
+        [SerializeField] private Image _transitionImage;
 
         private void Start()
         {
+            var tempColor = _transitionImage.color;
+            tempColor.a = 1f;
+            _transitionImage.color = tempColor;
 
             OnCharacterPowerChange(GlobalUpgrades.instance.power);
             OnCharacterSpeedChange(GlobalUpgrades.instance.speed);
@@ -30,7 +34,16 @@ namespace Managers
             EventManager.instance.ActionOnWeaponFired += OnWeaponFired;
             EventManager.instance.ActionDonkeyKilled += OnDonkeyKilled;
         }
-        
+
+        private void Update()
+        {
+            if(_transitionImage.color.a > 0){
+                var tempColor = _transitionImage.color;
+                tempColor.a -= 0.005f;
+                _transitionImage.color = tempColor;
+            }
+        }
+
         private void OnWeaponFired(int currentAmmo, int maxAmmo)
         {
             _ammoValue.text = currentAmmo + "/" + maxAmmo;
