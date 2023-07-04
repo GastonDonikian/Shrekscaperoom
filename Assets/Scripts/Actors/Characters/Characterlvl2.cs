@@ -22,6 +22,7 @@ namespace StarterAssets
     {
 
         private MovementController _movementController;
+        private float _damage = 1f;
         
 
         [Tooltip("How fast the character turns to face movement direction")]
@@ -164,6 +165,18 @@ namespace StarterAssets
             JumpAndGravity();
             GroundedCheck();
             Move();
+            TakeDamage();
+        }
+
+        private void TakeDamage()
+        {
+            if (_damage <= 0)
+            {
+                Debug.Log("damagium");
+                _damage = 1;
+                EventQueueManager.instance.AddEvent(new CmdApplyDamage(GetComponent<IDamageable>(), (int)_damage));
+            }
+            _damage -= Time.deltaTime;
         }
 
         private void LateUpdate()
