@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Lvl2Char
   m_EditorClassIdentifier: 
   _statValues:
-    MaxLife: 100
+    MaxLife: 60
     MovementSpeed: 4
     RotationSpeed: 20
