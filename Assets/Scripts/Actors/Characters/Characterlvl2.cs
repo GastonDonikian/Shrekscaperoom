@@ -175,6 +175,7 @@ namespace StarterAssets
                 Debug.Log("damagium");
                 _damage = 1;
                 EventQueueManager.instance.AddEvent(new CmdApplyDamage(GetComponent<IDamageable>(), (int)_damage));
+                
             }
             _damage -= Time.deltaTime;
         }
