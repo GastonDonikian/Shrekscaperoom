@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4776770402479010822}
   - component: {fileID: 4776770402479010841}
-  - component: {fileID: 4776770402479010840}
   - component: {fileID: 4776770402479010843}
   m_Layer: 6
   m_Name: Pistol 1
@@ -61,20 +60,6 @@ MonoBehaviour:
   _reload: {fileID: 8300000, guid: 2208d7380e917164eb01828a72b8f1f0, type: 3}
   _shoot: {fileID: 8300000, guid: 409dd10827032ef449c1eb38c17b0dbf, type: 3}
   _hit: {fileID: 8300000, guid: da301c41bd99a2f4a838183e00327a88, type: 3}
---- !u!114 &4776770402479010840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4776770402479010823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48f8364da7647ec4b948045d4dcd9016, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _throwForce: 30
-  _granadePrefab: {fileID: 1817090501474583599, guid: b6b3d43281a645d4d82af83d4059fa3c, type: 3}
 --- !u!82 &4776770402479010843
 AudioSource:
   m_ObjectHideFlags: 0
