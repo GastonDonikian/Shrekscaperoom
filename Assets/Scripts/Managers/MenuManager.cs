@@ -10,6 +10,8 @@ public enum UnityScenes
     LoadLevelAsync,
     [Description("Level1")]
     Level1,
+    [Description("Level2")]
+    Level2,
     [Description("UpgradeDeath")]
     UpgradeDeath,
     [Description("EndGame")]

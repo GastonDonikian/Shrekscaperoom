@@ -47,6 +47,8 @@ public class PussInBoots : Actor
         if (other.transform.name == "Characterlvl2")
         {
             Debug.Log("Winlvl2");
+            EventManager.instance.ActionLvl2Over(true);
+            Destroy(gameObject);
         }
     }
 }

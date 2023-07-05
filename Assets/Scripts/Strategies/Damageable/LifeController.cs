@@ -8,6 +8,7 @@ using UnityEngine;
 public class LifeController : MonoBehaviour, IDamageable
 {
     public const string CHARACTER_GAMEOBJECT_NAME = "Character";
+    public const string CHARACTER2_GAMEOBJECT_NAME = "Characterlvl2";
     private const string DOOR_GAMEOBJECT_NAME = "Door";
     private const string CDOOR_GAMEOBJECT_NAME = "Connected Door";
     private const string MACHINE_GAMEOBJECT_NAME = "Machine_3";
@@ -49,6 +50,8 @@ public class LifeController : MonoBehaviour, IDamageable
             EventManager.instance.OnDonkeyKilled();
         else if (name == DOOR_GAMEOBJECT_NAME || name == CDOOR_GAMEOBJECT_NAME)
             EventManager.instance.StartChase(true);
+        else if(name == CHARACTER2_GAMEOBJECT_NAME)
+            EventManager.instance.ActionLvl2Over(false);
         else if (name == MACHINE_GAMEOBJECT_NAME)
         {
             Instantiate(_explosionFxPrefab, transform.position, transform.rotation, transform);
