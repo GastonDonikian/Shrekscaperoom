@@ -10,13 +10,13 @@ public class PussInBoots : Actor
     private NavMeshAgent _puss;
     [SerializeField] private Transform[] _wayPoints;
     private MovementController _movementController;
-    //private Animator _animator;
+    private Animator _animator;
     private int _waypointIndex = 0;
     void Start()
     {
         _puss = GetComponent<NavMeshAgent>();
         UpdateDestination();
-        //_animator = GetComponent<Animator>();
+        _animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
