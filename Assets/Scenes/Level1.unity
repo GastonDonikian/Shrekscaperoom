@@ -7607,6 +7607,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -625271772763848969, guid: cbe8f0896a60c944b9530485d3a0dd0e, type: 2}
     - target: {fileID: 7617849861821641395, guid: a20574646a17db344a1bfc954f2ced76, type: 3}
+      propertyPath: avoidancePriority
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617849861821641395, guid: a20574646a17db344a1bfc954f2ced76, type: 3}
       propertyPath: m_StoppingDistance
       value: 0.5
       objectReference: {fileID: 0}
@@ -15048,6 +15052,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pistol
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: _granadePrefab
+      value: 
+      objectReference: {fileID: 8816507726173757020, guid: 21ecace7b3d4c814d994334b54c5fbd7, type: 3}
     - target: {fileID: 4776770402479010841, guid: 100e9805ba485784db558929ae1cb8bd, type: 3}
       propertyPath: _camera
       value: 
