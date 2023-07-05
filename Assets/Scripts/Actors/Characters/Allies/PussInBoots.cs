@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
+
 public class PussInBoots : Actor
 {
     private NavMeshAgent _puss;
@@ -12,11 +13,16 @@ public class PussInBoots : Actor
     private MovementController _movementController;
     private Animator _animator;
     private int _waypointIndex = 0;
+    
+    public AudioSource AudioSource => _audioSource;
+    private AudioSource _audioSource;
+    [SerializeField] private AudioClip _grab;
     void Start()
     {
         _puss = GetComponent<NavMeshAgent>();
         UpdateDestination();
         _animator = GetComponent<Animator>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -46,9 +52,23 @@ public class PussInBoots : Actor
     {
         if (other.transform.name == "Characterlvl2")
         {
+            //disable collider
+            GetComponent<Collider>().enabled = false;
+            //disable renderers
+            Renderer[] rs = GetComponentsInChildren<SkinnedMeshRenderer>();
+            foreach(Renderer r in rs)
+                r.enabled = false;
+            //play meow
+            _audioSource.PlayOneShot(_grab);
+            //game win
             Debug.Log("Winlvl2");
-            EventManager.instance.ActionLvl2Over(true);
-            Destroy(gameObject);
+            Invoke("GameWin", 2f);
         }
+    }
+
+    private void GameWin()
+    {
+        EventManager.instance.ActionLvl2Over(true);
+        Destroy(gameObject);
     }
 }
