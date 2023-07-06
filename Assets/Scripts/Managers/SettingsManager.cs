@@ -87,7 +87,6 @@ namespace Managers
             _isActive = !_isActive;
             _gamePaused = !_gamePaused;
             PlayPauseGame();
-
         }
     }
 }
