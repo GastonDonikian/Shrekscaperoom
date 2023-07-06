@@ -37,7 +37,10 @@ public class MovementController : MonoBehaviour, IMovable, IRotable
 
     public void Rotate(Vector3 direction)
     {
-        transform.rotation *= Quaternion.Euler(direction * (RotationSpeed * Time.deltaTime));
+        if (transform != null)
+        {
+            transform.rotation *= Quaternion.Euler(direction * (RotationSpeed * Time.deltaTime));
+        }
     }
 
     private void Start()

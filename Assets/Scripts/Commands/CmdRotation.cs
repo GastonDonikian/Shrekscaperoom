@@ -12,5 +12,12 @@ public class CmdRotation : ICommand
         _rotable = rotable;
         _direction = direction;
     }
-    public void Execute() => _rotable.Rotate(_direction);
+
+    public void Execute()
+    {
+        if (_rotable != null)
+        {
+            _rotable.Rotate(_direction);
+        }
+    }
 }
