@@ -13,6 +13,7 @@ public class LifeController : MonoBehaviour, IDamageable
     private const string CDOOR_GAMEOBJECT_NAME = "Connected Door";
     private const string MACHINE_GAMEOBJECT_NAME = "Machine_3";
     private const string DONKEY_GAMEOBJECT_NAME = "Donkey(Clone)";
+    private const string TNT_GAMEOBJECT_NAME = "TNT";
     [SerializeField] private SoundDamageEffectController _soundDamageEffectController;
     
     [SerializeField] private GameObject _explosionFxPrefab;
@@ -60,6 +61,15 @@ public class LifeController : MonoBehaviour, IDamageable
             Invoke("DestroyMachine", 0.7f);
             return;
         }
+        else if (name == TNT_GAMEOBJECT_NAME)
+        {
+            Instantiate(_explosionFxPrefab, transform.position, transform.rotation, transform);
+            _explosionSound.PlayOneShot(_explosionSound.GetComponent<AudioClip>());
+            _soundDamageEffectController.OnDamage();
+            Invoke("DestroyGranade", 0.7f);
+            return;
+        }
+        
         Destroy(this.gameObject);
     }
     
