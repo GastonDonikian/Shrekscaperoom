@@ -47,8 +47,20 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(UnityScenes.Level2.ToString());
             return;
         }
+        SceneManager.LoadScene(UnityScenes.LoadLevel3Async.ToString());
+    }
+
+    private void OnLvl3Over(bool isVictory)
+    {
+        if (!isVictory && GlobalUpgrades.instance.lives > 0)
+        {
+            GlobalUpgrades.instance.lives -= 1;
+            SceneManager.LoadScene(UnityScenes.Level3.ToString());
+            return;
+        }
         GlobalVictory.instance.IsVictory = isVictory;
-        Invoke("LoadEndGameScene", 0.5f);
+        Invoke("LoadEndGameScene", 0.5f);         
+        
     }
 
     private void LoadUpgradeScene()
