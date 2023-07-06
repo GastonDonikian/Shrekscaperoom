@@ -12,8 +12,7 @@ public class FallingFloor : MonoBehaviour
         //if collided with character give character damage
         if (collision.gameObject.layer == 6)
         {
-            Debug.Log("MBEHH");
-            Invoke("SetCollided", 1f);
+            Invoke("SetCollided", 0.5f);
         }
     }
 
@@ -28,7 +27,7 @@ public class FallingFloor : MonoBehaviour
     {
         if (collided)
         {
-            transform.Translate(Vector3.down * (2.5f * Time.deltaTime));
+            transform.Translate(Vector3.down * (2 * Time.deltaTime));
         }
     }
 

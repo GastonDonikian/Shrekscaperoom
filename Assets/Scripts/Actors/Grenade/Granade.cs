@@ -41,7 +41,6 @@ public class Granade : MonoBehaviour
         Collider[] colliders = Physics.OverlapSphere(transform.position, _radius);
         foreach (Collider c in colliders)
         {
-            Debug.Log(c.name);
             //aplicar fuerza
             Rigidbody rb = c.GetComponent<Rigidbody>();
             if (rb != null)
