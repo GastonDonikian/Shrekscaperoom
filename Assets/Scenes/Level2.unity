@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3423966, g: 0.4327668, b: 0.5731891, a: 1}
+  m_IndirectSpecularColor: {r: 0.3423956, g: 0.432766, b: 0.57318854, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3641,6 +3641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Clock_Final (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4487403995547848901, guid: f8afb15bed7929241a9af10485b772bd, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -625271772763848969, guid: cbe8f0896a60c944b9530485d3a0dd0e, type: 2}
     - target: {fileID: 5157796220177084165, guid: f8afb15bed7929241a9af10485b772bd, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3810,6 +3814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Clock_Final
       objectReference: {fileID: 0}
+    - target: {fileID: 4487403995547848901, guid: f8afb15bed7929241a9af10485b772bd, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -625271772763848969, guid: cbe8f0896a60c944b9530485d3a0dd0e, type: 2}
     - target: {fileID: 5157796220177084165, guid: f8afb15bed7929241a9af10485b772bd, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -3880,6 +3888,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8983696321984146326, guid: 54ec4af34d42c494a96afbcea0e4f895, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -625271772763848969, guid: cbe8f0896a60c944b9530485d3a0dd0e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54ec4af34d42c494a96afbcea0e4f895, type: 3}
 --- !u!114 &2976895795176338756
@@ -4719,6 +4731,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8546687232343515574, guid: a676e43e969d1054b9cb5ba43295b886, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -625271772763848969, guid: cbe8f0896a60c944b9530485d3a0dd0e, type: 2}
     - target: {fileID: 8546687232343515579, guid: a676e43e969d1054b9cb5ba43295b886, type: 3}
       propertyPath: _wayPoints.Array.data[0]
       value: 

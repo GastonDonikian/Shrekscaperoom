@@ -8,7 +8,7 @@ namespace Managers
     public class LoadAsyncManager : MonoBehaviour
     {
         [SerializeField] private Image _progressBar;
-        [SerializeField] private string _targetScene = UnityScenes.Level1.ToString();
+        [SerializeField] private string _targetScene;
         [SerializeField] private Text _text;
 
         private void Start()
