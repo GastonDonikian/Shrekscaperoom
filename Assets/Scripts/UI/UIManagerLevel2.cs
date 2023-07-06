@@ -29,7 +29,7 @@ namespace Managers
         private void Update()
         {
             
-            _timeLeft.text = (_characterLifeController.CurrentLife - 1).ToString() + "s";
+            _timeLeft.text = _characterLifeController.CurrentLife.ToString() + "s";
         }
 
         IEnumerator ChangeStartingOverlay()
