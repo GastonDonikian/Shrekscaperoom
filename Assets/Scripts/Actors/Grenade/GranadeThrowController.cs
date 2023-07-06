@@ -18,7 +18,7 @@ public class GranadeThrowController : MonoBehaviour
     private void ThrowGranade()
     {
         //spawn de granada
-        GameObject granade = Instantiate(_granadePrefab, transform.position + transform.forward, transform.rotation);
+        GameObject granade = Instantiate(_granadePrefab, transform.position + transform.forward + transform.up, transform.rotation);
         //acceso al rigidbody
         Rigidbody rb = granade.GetComponent<Rigidbody>();
         //aplicar fuerza
