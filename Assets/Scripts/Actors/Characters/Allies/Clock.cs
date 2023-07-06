@@ -10,9 +10,10 @@ public class Clock : Actor
     public AudioSource AudioSource => _audioSource;
     private AudioSource _audioSource;
     [SerializeField] private AudioClip _grab;
+    
     private void Update()
     {
-        EventQueueManager.instance.AddEvent(new CmdRotation(GetComponent<IRotable>(), new Vector3(0, 2, 0)));
+        transform.Rotate(Vector3.up, 50 * Time.deltaTime);
     }
 
     private void OnTriggerEnter(Collider other)
