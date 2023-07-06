@@ -15,6 +15,8 @@ namespace Managers
         [SerializeField] private GameObject _character;
         private LifeController _characterLifeController;
         [SerializeField] private Text _timeLeft;
+        [SerializeField] private AudioSource fiveSecondsLeft;
+        [SerializeField] private AudioSource NoSecondsLeft;
         private void Start()
         {
             _characterLifeController = _character.GetComponent<LifeController>();
@@ -30,6 +32,15 @@ namespace Managers
         {
             
             _timeLeft.text = _characterLifeController.CurrentLife.ToString() + "s";
+            if (_characterLifeController.CurrentLife == 6)
+            {
+                fiveSecondsLeft.PlayOneShot(fiveSecondsLeft.clip);
+            }
+
+            if (_characterLifeController.CurrentLife == 1)
+            {
+                NoSecondsLeft.PlayOneShot(fiveSecondsLeft.clip);
+            }
         }
 
         IEnumerator ChangeStartingOverlay()

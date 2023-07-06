@@ -16,6 +16,8 @@ public enum UnityScenes
     Level1,
     [Description("Level2")]
     Level2,
+    [Description("Level3")]
+    Level3,
     [Description("UpgradeDeath")]
     UpgradeDeath,
     [Description("EndGame")]
