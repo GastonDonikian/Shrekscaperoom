@@ -6,8 +6,12 @@ public enum UnityScenes
 {
     [Description("MainMenu")]
     MainMenu,
-    [Description("LoadLevelAsync")]
-    LoadLevelAsync,
+    [Description("LoadLevel1Async")]
+    LoadLevel1Async,
+    [Description("LoadLevel2Async")]
+    LoadLevel2Async,
+    [Description("LoadLevel3Async")]
+    LoadLevel3Async,
     [Description("Level1")]
     Level1,
     [Description("Level2")]
@@ -22,7 +26,11 @@ namespace Managers
 {
     public class MenuManager : MonoBehaviour
     {
-        public void LoadLevelOne() => SceneManager.LoadScene(UnityScenes.LoadLevelAsync.ToString());
+        public void LoadLevelOne() => SceneManager.LoadScene(UnityScenes.LoadLevel1Async.ToString());
+        
+        public void LoadLevelTwo() => SceneManager.LoadScene(UnityScenes.LoadLevel2Async.ToString());
+        
+        public void LoadLevelThree() => SceneManager.LoadScene(UnityScenes.LoadLevel3Async.ToString());
 
         public void Quit() => Application.Quit();
     }

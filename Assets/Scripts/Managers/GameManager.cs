@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene(UnityScenes.Level2.ToString());
+            SceneManager.LoadScene(UnityScenes.LoadLevel2Async.ToString());
         }
         
     }
