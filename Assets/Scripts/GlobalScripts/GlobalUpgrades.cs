@@ -8,6 +8,8 @@ namespace GlobalScripts
         public int speed = GlobalUpgrades._initialSpeed;
         public int power = GlobalUpgrades._startPower;
         public int lives = GlobalUpgrades._startLives;
+        public float volume = 2;
+        public  Color brightness = new Color(0,0,0,0);
 
         public static int _startLives = 4;
         public static int _initialSpeed = 0;
