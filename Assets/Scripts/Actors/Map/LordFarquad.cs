@@ -19,7 +19,7 @@ public class LordFarquad : MonoBehaviour
         {
             if (lTR)
             {
-                transform.Translate(Vector3.forward * (15 * Time.deltaTime));
+                transform.Translate(Vector3.forward * (14 * Time.deltaTime));
                 if (right < transform.position.z)
                 {
                     still = true;
@@ -28,7 +28,7 @@ public class LordFarquad : MonoBehaviour
             }
             else
             {
-                transform.Translate(Vector3.back * (15 * Time.deltaTime));
+                transform.Translate(Vector3.back * (14 * Time.deltaTime));
                 if (left > transform.position.z)
                 {
                     still = true;
