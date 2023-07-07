@@ -17,6 +17,7 @@ public class EventManager : MonoBehaviour
     public event Action<int> ActionCharacterSpeedChange;
     public event Action<bool> OnGameOver;
 
+    public event Action<bool> OnMiss;
     public event Action<bool> OnLvl2Over;
     public event Action<bool> OnLvl3Over;
     public event Action<bool> OnChase;
@@ -32,6 +33,8 @@ public class EventManager : MonoBehaviour
     }
 
     public void ActionGameOver(bool isGameOver) => OnGameOver(isGameOver);
+    
+    public void ActionMiss(bool isMiss) => OnMiss(isMiss);
     
     public void ActionLvl2Over(bool isGameOver) => OnLvl2Over(isGameOver);
     public void ActionLvl3Over(bool isGameOver) => OnLvl3Over(isGameOver);

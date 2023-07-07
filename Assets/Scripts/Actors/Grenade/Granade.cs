@@ -11,6 +11,7 @@ public class Granade : MonoBehaviour
     [SerializeField] private float _fxdelay = 2f;
     [SerializeField] private float _radius = 5f;
     [SerializeField] private float _explosionForce = 500f;
+    private bool hit = false;
     private float _countdown;
 
     private bool _hasExploded = false;
@@ -41,6 +42,10 @@ public class Granade : MonoBehaviour
         Collider[] colliders = Physics.OverlapSphere(transform.position, _radius);
         foreach (Collider c in colliders)
         {
+            if (c.gameObject.name == "Barrels")
+            {
+                hit = true;
+            }
             //aplicar fuerza
             Rigidbody rb = c.GetComponent<Rigidbody>();
             if (rb != null)
@@ -56,6 +61,10 @@ public class Granade : MonoBehaviour
         }
         this.enabled = false;
         Debug.Log("BOOOOM!");
+        if (!hit)
+        {
+            EventManager.instance.ActionMiss(true);
+        }
         Invoke("DestroyGranade", _fxdelay);
     }
 
