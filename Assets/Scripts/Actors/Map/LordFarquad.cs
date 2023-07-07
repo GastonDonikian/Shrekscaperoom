@@ -7,8 +7,8 @@ using UnityEngine;
 public class LordFarquad : MonoBehaviour
 {
     private Rigidbody rb;
-    private int left = 97;
-    private int right = 143;
+    private int left = 106;
+    private int right = 131;
 
     private bool still = false;
     private bool lTR = true;
