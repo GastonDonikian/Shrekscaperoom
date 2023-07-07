@@ -18,10 +18,9 @@ public class GameManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         EventManager.instance.OnGameOver += OnGameOver;
         EventManager.instance.OnLvl2Over += OnLvl2Over;
+        EventManager.instance.OnLvl3Over += OnLvl3Over;
     }
     
-
-
     private void OnGameOver(bool isVictory)
     {
         if (!isVictory && GlobalUpgrades.instance.lives > 0)
@@ -44,10 +43,16 @@ public class GameManager : MonoBehaviour
         if (!isVictory && GlobalUpgrades.instance.lives > 0)
         {
             GlobalUpgrades.instance.lives -= 1;
-            SceneManager.LoadScene(UnityScenes.Level2.ToString());
-            return;
+            SceneManager.LoadScene(UnityScenes.LoadLevel2Async.ToString());
+        }else if (!isVictory)
+        {
+            GlobalVictory.instance.IsVictory = isVictory;
+            Invoke("LoadEndGameScene", 0.5f);
         }
-        SceneManager.LoadScene(UnityScenes.LoadLevel3Async.ToString());
+        else
+        {
+            SceneManager.LoadScene(UnityScenes.LoadLevel3Async.ToString());   
+        }
     }
 
     private void OnLvl3Over(bool isVictory)
@@ -55,7 +60,7 @@ public class GameManager : MonoBehaviour
         if (!isVictory && GlobalUpgrades.instance.lives > 0)
         {
             GlobalUpgrades.instance.lives -= 1;
-            SceneManager.LoadScene(UnityScenes.Level3.ToString());
+            SceneManager.LoadScene(UnityScenes.LoadLevel3Async.ToString());
             return;
         }
         GlobalVictory.instance.IsVictory = isVictory;
