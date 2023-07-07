@@ -24,6 +24,8 @@ namespace StarterAssets
 #endif
     public class Character : Actor
     {
+        public AudioSource AudioSource => _audioSource;
+        private AudioSource _audioSource;
         
         [SerializeField] private List<Gun> _availableWeapons;
         [SerializeField] private Gun _currentWeapon;
@@ -157,6 +159,7 @@ namespace StarterAssets
             _movementController = GetComponent<MovementController>();
             
             _soundDamageEffectController = GetComponent<SoundDamageEffectController>();
+            _audioSource = GetComponent<AudioSource>();
 
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
             
@@ -405,7 +408,7 @@ namespace StarterAssets
                 if (FootstepAudioClips.Length > 0)
                 {
                     var index = Random.Range(0, FootstepAudioClips.Length);
-                    AudioSource.PlayClipAtPoint(FootstepAudioClips[index], transform.TransformPoint(_controller.center), FootstepAudioVolume);
+                    _audioSource.PlayOneShot(FootstepAudioClips[index], FootstepAudioVolume);
                 }
             }
         }
@@ -414,7 +417,7 @@ namespace StarterAssets
         {
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
-                AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
+                _audioSource.PlayOneShot(LandingAudioClip, FootstepAudioVolume);
             }
         }
         

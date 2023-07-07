@@ -20,6 +20,10 @@ namespace StarterAssets
 #endif
     public class Characterlvl3 : Actor
     {
+    
+        public AudioSource AudioSource => _audioSource;
+        private AudioSource _audioSource;
+        
         private bool damaged = false;
 
         private MovementController _movementController;
@@ -141,6 +145,7 @@ namespace StarterAssets
             _movementController = GetComponent<MovementController>();
 
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
+            _audioSource = GetComponent<AudioSource>();
             
             _hasAnimator = TryGetComponent(out _animator);
             _controller = GetComponent<CharacterController>();
@@ -405,7 +410,7 @@ namespace StarterAssets
                 if (FootstepAudioClips.Length > 0)
                 {
                     var index = Random.Range(0, FootstepAudioClips.Length);
-                    AudioSource.PlayClipAtPoint(FootstepAudioClips[index], transform.TransformPoint(_controller.center), FootstepAudioVolume);
+                        _audioSource.PlayOneShot(FootstepAudioClips[index], FootstepAudioVolume);
                 }
             }
         }
@@ -414,7 +419,7 @@ namespace StarterAssets
         {
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
-                AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
+                _audioSource.PlayOneShot(LandingAudioClip, FootstepAudioVolume);
             }
         }
     }
