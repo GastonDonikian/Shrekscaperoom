@@ -12,7 +12,7 @@ public class LordFarquad : MonoBehaviour
 
     private bool still = false;
     private bool lTR = true;
-    private float stillTime = 0.5f;
+    private float stillTime = 0.2f;
     private void Update()
     {
         if (!still)
@@ -41,7 +41,7 @@ public class LordFarquad : MonoBehaviour
             if (stillTime <= 0 )
             {
                 still = false;
-                stillTime = 0.5f;
+                stillTime = 0.2f;
             }
             stillTime -= Time.deltaTime;
         }
