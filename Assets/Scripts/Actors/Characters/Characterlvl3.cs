@@ -20,6 +20,7 @@ namespace StarterAssets
 #endif
     public class Characterlvl3 : Actor
     {
+        private bool damaged = false;
 
         private MovementController _movementController;
 
@@ -169,8 +170,9 @@ namespace StarterAssets
 
         private void TakeDamage()
         {
-            if (transform.position.y <= -9)
+            if (transform.position.y <= -9 && !damaged)
             {
+                damaged = true;
                 Debug.Log("damagium");
                 EventQueueManager.instance.AddEvent(new CmdApplyDamage(GetComponent<IDamageable>(), 1000));
                 

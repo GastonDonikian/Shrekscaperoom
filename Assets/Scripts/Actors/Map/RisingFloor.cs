@@ -34,12 +34,11 @@ public class RisingFloor : MonoBehaviour
         {
             if (transform.position.y < start + toRise)
             {
-                transform.Translate(Vector3.up * (20 * Time.deltaTime));
+                transform.Translate(Vector3.up * (10 * Time.deltaTime));
             }
             else
             {
                 rb.constraints = RigidbodyConstraints.FreezeAll;
-                Debug.Log("Llegue");
             }
         }
     }
