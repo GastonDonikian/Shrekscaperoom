@@ -11,6 +11,11 @@ public class RisingFloor : MonoBehaviour
     private float start;
     private bool trig = false;
     
+    [SerializeField] private AudioClip _rise;
+    
+    public AudioSource AudioSource => _audioSource;
+    private AudioSource _audioSource;
+    
     public void OnCollisionEnter(Collision collision)
     {
         //if collided with character give character damage
@@ -26,6 +31,7 @@ public class RisingFloor : MonoBehaviour
         collided = true;
         rb.constraints = RigidbodyConstraints.None;
         rb.constraints = RigidbodyConstraints.FreezeRotation;
+        _audioSource.PlayOneShot(_rise);
     }
 
     private void Update()
@@ -47,5 +53,6 @@ public class RisingFloor : MonoBehaviour
     {
         start = transform.position.y;
         rb = GetComponent<Rigidbody>();
+        _audioSource = GetComponent<AudioSource>();
     }
 }

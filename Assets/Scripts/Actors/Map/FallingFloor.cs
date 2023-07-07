@@ -7,6 +7,11 @@ public class FallingFloor : MonoBehaviour
 {
     private bool collided = false;
     private Rigidbody rb;
+    
+    public AudioSource AudioSource => _audioSource;
+    private AudioSource _audioSource;
+    
+    [SerializeField] private AudioClip _fall;
     public void OnCollisionEnter(Collision collision)
     {
         //if collided with character give character damage
@@ -21,6 +26,7 @@ public class FallingFloor : MonoBehaviour
         collided = true;
         rb.constraints = RigidbodyConstraints.None;
         rb.constraints = RigidbodyConstraints.FreezeRotation;
+        _audioSource.PlayOneShot(_fall);
     }
 
     private void Update()
@@ -35,5 +41,6 @@ public class FallingFloor : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        _audioSource = GetComponent<AudioSource>();
     }
 }
