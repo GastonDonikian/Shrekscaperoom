@@ -156,6 +156,17 @@ namespace StarterAssets
             // reset our timeouts on start
             _jumpTimeoutDelta = JumpTimeout;
             _fallTimeoutDelta = FallTimeout;
+            EventManager.instance.OnMiss += OnMiss;
+        }
+
+        private void OnMiss(bool isMiss)
+        {
+            Invoke(nameof(KillMe), 5f);
+        }
+
+        private void KillMe()
+        {
+            EventQueueManager.instance.AddEvent(new CmdApplyDamage(GetComponent<IDamageable>(), 1000));
         }
 
         private void Update()
