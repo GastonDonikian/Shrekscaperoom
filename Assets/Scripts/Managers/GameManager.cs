@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
         if (!isVictory && GlobalUpgrades.instance.lives > 0)
         {
             GlobalUpgrades.instance.lives -= 1;
-            SceneManager.LoadScene(UnityScenes.LoadLevel2Async.ToString());
+            SceneManager.LoadScene(UnityScenes.Level2.ToString());
         }else if (!isVictory)
         {
             GlobalVictory.instance.IsVictory = isVictory;
@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
         if (!isVictory && GlobalUpgrades.instance.lives > 0)
         {
             GlobalUpgrades.instance.lives -= 1;
-            SceneManager.LoadScene(UnityScenes.LoadLevel3Async.ToString());
+            SceneManager.LoadScene(UnityScenes.Level3.ToString());
             return;
         }
         GlobalVictory.instance.IsVictory = isVictory;
