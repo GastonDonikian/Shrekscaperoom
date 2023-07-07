@@ -27,6 +27,7 @@ public class FallingFloor : MonoBehaviour
     {
         if (collided)
         {
+            Debug.Log("collided");
             transform.Translate(Vector3.down * (2 * Time.deltaTime));
         }
     }
