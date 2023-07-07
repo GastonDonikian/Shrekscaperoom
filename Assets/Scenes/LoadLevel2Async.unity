@@ -247,7 +247,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "As he escapes from Shrek. He himself \nbecomes Shrek. However, he can\xB4t
+  m_Text: "As he escapes from Shrek,\nhe  becomes Shrek himself. \nHowever, he can\xB4t
     just forgive what they did to him"
 --- !u!222 &148520189
 CanvasRenderer:
