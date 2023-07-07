@@ -1,4 +1,5 @@
 ﻿using System;
+using GlobalScripts;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.InputSystem;
@@ -30,17 +31,24 @@ namespace Managers
         private void Start()
         {
             CloseMenu();
+            _audioMixer.SetFloat("BG_Music", GlobalUpgrades.instance.volume);
+            _sliderVolume.value = GlobalUpgrades.instance.volume;
+            
+            _brightnessOverlay.color = GlobalUpgrades.instance.brightness;
+            _sliderBrightness.value = GlobalUpgrades.instance.brightness.a;
         }
 
         public void AdjustMusicVolume()
         {
             _audioMixer.SetFloat("BG_Music", _sliderVolume.value);
+            GlobalUpgrades.instance.volume = _sliderVolume.value;
         }
 
         public void AdjustBrightness()
         {
             Color tempColor = _brightnessOverlay.color;
             tempColor.a = _sliderBrightness.value;
+            GlobalUpgrades.instance.brightness = tempColor;
             _brightnessOverlay.color = tempColor;
         }
 
