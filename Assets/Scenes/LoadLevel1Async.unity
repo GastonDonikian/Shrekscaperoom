@@ -545,10 +545,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'The story starts, with a man.
 
-    He knows is he has to escape.
+    He has to escape.
 
-    Will
-    he?'
+    Will he?'
 --- !u!222 &962341252
 CanvasRenderer:
   m_ObjectHideFlags: 0
