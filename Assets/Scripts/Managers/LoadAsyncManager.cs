@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using GlobalScripts;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -19,6 +20,10 @@ namespace Managers
         IEnumerator LoadAsync()
         {
             AsyncOperation operation = SceneManager.LoadSceneAsync(_targetScene);
+            if (_targetScene != UnityScenes.Level1.ToString())
+            {
+                GlobalUpgrades.instance.lives = 3;
+            }
             operation.allowSceneActivation = false;
             while (!operation.isDone)
             {
